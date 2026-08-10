@@ -659,3 +659,113 @@
 2026-08-10 17:08:32 [INFO] Generated report and rebuilt archive index: E:\工作台\literature-radar\reports\weekly_report_2026-08-10.md
 2026-08-10 17:08:33 [INFO] Email sent successfully
 2026-08-10 17:08:33 [INFO] Run completed; GitHub Actions will commit generated files
+2026-08-10 17:58:51 [INFO] Starting literature run for [2026-08-03, 2026-08-10)
+2026-08-10 17:58:51 [INFO] Querying OpenAlex: Nature page 1
+2026-08-10 17:58:53 [INFO] Querying OpenAlex: Nature page 2
+2026-08-10 17:58:53 [INFO] Retrieved 74 dated works from Nature
+2026-08-10 17:58:53 [INFO] Querying OpenAlex: Nature Energy page 1
+2026-08-10 17:58:54 [INFO] Retrieved 2 dated works from Nature Energy
+2026-08-10 17:58:54 [INFO] Querying OpenAlex: Nature Catalysis page 1
+2026-08-10 17:58:54 [INFO] Retrieved 4 dated works from Nature Catalysis
+2026-08-10 17:58:54 [INFO] Querying OpenAlex: Nature Sustainability page 1
+2026-08-10 17:58:54 [INFO] Retrieved 3 dated works from Nature Sustainability
+2026-08-10 17:58:54 [INFO] Querying OpenAlex: Nature Materials page 1
+2026-08-10 17:58:55 [INFO] Retrieved 6 dated works from Nature Materials
+2026-08-10 17:58:55 [INFO] Querying OpenAlex: Nature Nanotechnology page 1
+2026-08-10 17:58:55 [INFO] Retrieved 8 dated works from Nature Nanotechnology
+2026-08-10 17:58:55 [INFO] Querying OpenAlex: Nature Chemistry page 1
+2026-08-10 17:58:56 [INFO] Retrieved 0 dated works from Nature Chemistry
+2026-08-10 17:58:56 [INFO] Querying OpenAlex: Nature Chemical Biology page 1
+2026-08-10 17:58:56 [INFO] Retrieved 6 dated works from Nature Chemical Biology
+2026-08-10 17:58:56 [INFO] Querying OpenAlex: Nature Communications page 1
+2026-08-10 17:58:57 [INFO] Querying OpenAlex: Nature Communications page 2
+2026-08-10 17:58:58 [INFO] Querying OpenAlex: Nature Communications page 3
+2026-08-10 17:58:59 [INFO] Querying OpenAlex: Nature Communications page 4
+2026-08-10 17:59:00 [INFO] Querying OpenAlex: Nature Communications page 5
+2026-08-10 17:59:00 [INFO] Querying OpenAlex: Nature Communications page 6
+2026-08-10 17:59:01 [INFO] Retrieved 256 dated works from Nature Communications
+2026-08-10 17:59:01 [INFO] Querying OpenAlex: Nature Plants page 1
+2026-08-10 17:59:01 [INFO] Retrieved 5 dated works from Nature Plants
+2026-08-10 17:59:01 [INFO] Querying OpenAlex: Nature Reviews Clean Technology page 1
+2026-08-10 17:59:02 [INFO] Retrieved 0 dated works from Nature Reviews Clean Technology
+2026-08-10 17:59:02 [INFO] Querying OpenAlex: Nature Water page 1
+2026-08-10 17:59:02 [INFO] Retrieved 1 dated works from Nature Water
+2026-08-10 17:59:02 [INFO] Querying OpenAlex: Science page 1
+2026-08-10 17:59:02 [INFO] Retrieved 34 dated works from Science
+2026-08-10 17:59:02 [INFO] Querying OpenAlex: Science Advances page 1
+2026-08-10 17:59:03 [INFO] Querying OpenAlex: Science Advances page 2
+2026-08-10 17:59:04 [INFO] Retrieved 86 dated works from Science Advances
+2026-08-10 17:59:04 [INFO] Querying OpenAlex: Science Translational Medicine page 1
+2026-08-10 17:59:05 [INFO] Retrieved 9 dated works from Science Translational Medicine
+2026-08-10 17:59:05 [INFO] Querying OpenAlex: Cell page 1
+2026-08-10 17:59:05 [INFO] Retrieved 0 dated works from Cell
+2026-08-10 17:59:05 [INFO] Querying OpenAlex: Joule page 1
+2026-08-10 17:59:05 [INFO] Retrieved 0 dated works from Joule
+2026-08-10 17:59:05 [INFO] Querying OpenAlex: Chem page 1
+2026-08-10 17:59:05 [INFO] Retrieved 0 dated works from Chem
+2026-08-10 17:59:05 [INFO] Querying OpenAlex: Chem Catalysis page 1
+2026-08-10 17:59:06 [INFO] Retrieved 0 dated works from Chem Catalysis
+2026-08-10 17:59:06 [INFO] Querying OpenAlex: Matter page 1
+2026-08-10 17:59:06 [INFO] Retrieved 0 dated works from Matter
+2026-08-10 17:59:06 [INFO] Querying OpenAlex: One Earth page 1
+2026-08-10 17:59:06 [INFO] Retrieved 0 dated works from One Earth
+2026-08-10 17:59:06 [INFO] Querying OpenAlex: Renewable and Sustainable Energy Reviews page 1
+2026-08-10 17:59:07 [INFO] Retrieved 27 dated works from Renewable and Sustainable Energy Reviews
+2026-08-10 17:59:07 [INFO] Querying OpenAlex: Chemical Engineering Journal page 1
+2026-08-10 17:59:08 [INFO] Querying OpenAlex: Chemical Engineering Journal page 2
+2026-08-10 17:59:08 [INFO] Retrieved 77 dated works from Chemical Engineering Journal
+2026-08-10 17:59:08 [INFO] Querying OpenAlex: Bioresource Technology page 1
+2026-08-10 17:59:09 [INFO] Retrieved 11 dated works from Bioresource Technology
+2026-08-10 17:59:09 [INFO] Querying OpenAlex: Journal of Cleaner Production page 1
+2026-08-10 17:59:09 [INFO] Retrieved 0 dated works from Journal of Cleaner Production
+2026-08-10 17:59:09 [INFO] Querying OpenAlex: Energy page 1
+2026-08-10 17:59:10 [INFO] Retrieved 23 dated works from Energy
+2026-08-10 17:59:10 [INFO] Querying OpenAlex: Fuel page 1
+2026-08-10 17:59:10 [INFO] Querying OpenAlex: Fuel page 2
+2026-08-10 17:59:11 [INFO] Retrieved 60 dated works from Fuel
+2026-08-10 17:59:11 [INFO] Querying OpenAlex: Chemosphere page 1
+2026-08-10 17:59:11 [INFO] Retrieved 6 dated works from Chemosphere
+2026-08-10 17:59:11 [INFO] Querying OpenAlex: Industrial & Engineering Chemistry Research page 1
+2026-08-10 17:59:12 [INFO] Retrieved 39 dated works from Industrial & Engineering Chemistry Research
+2026-08-10 17:59:12 [INFO] Querying OpenAlex: Energy & Fuels page 1
+2026-08-10 17:59:13 [INFO] Retrieved 44 dated works from Energy & Fuels
+2026-08-10 17:59:13 [INFO] Querying OpenAlex: Applied Energy page 1
+2026-08-10 17:59:14 [INFO] Querying OpenAlex: Applied Energy page 2
+2026-08-10 17:59:14 [INFO] Retrieved 66 dated works from Applied Energy
+2026-08-10 17:59:14 [INFO] Querying OpenAlex: Green Chemistry page 1
+2026-08-10 17:59:14 [INFO] Retrieved 0 dated works from Green Chemistry
+2026-08-10 17:59:14 [INFO] Querying OpenAlex: International Journal of Hydrogen Energy page 1
+2026-08-10 17:59:15 [INFO] Retrieved 23 dated works from International Journal of Hydrogen Energy
+2026-08-10 17:59:15 [INFO] Querying OpenAlex: International Journal of Agricultural and Biological Engineering page 1
+2026-08-10 17:59:15 [INFO] Retrieved 0 dated works from International Journal of Agricultural and Biological Engineering
+2026-08-10 17:59:15 [INFO] Querying OpenAlex: 农业工程学报 page 1
+2026-08-10 17:59:15 [INFO] Retrieved 0 dated works from 农业工程学报
+2026-08-10 17:59:15 [INFO] Querying OpenAlex: Biochemical Engineering Journal page 1
+2026-08-10 17:59:16 [INFO] Retrieved 5 dated works from Biochemical Engineering Journal
+2026-08-10 17:59:16 [INFO] Querying OpenAlex: Frontiers in Microbiology page 1
+2026-08-10 17:59:17 [INFO] Querying OpenAlex: Frontiers in Microbiology page 2
+2026-08-10 17:59:17 [INFO] Retrieved 71 dated works from Frontiers in Microbiology
+2026-08-10 17:59:17 [INFO] Keyword filtering retained 9 of 946 works
+2026-08-10 17:59:17 [INFO] Historical deduplication retained 9 new papers
+2026-08-10 17:59:17 [INFO] History persisted before report delivery
+2026-08-10 17:59:18 [INFO] Translated title: Iron/sulfur cycling in pyrite-biochar constructed wetlands enhances PFOA removal, nutrient metabolism and greenhouse gas mitigation
+2026-08-10 17:59:19 [INFO] Translated title: Photodegradation process of microplastics mediated by biochar-derived dissolved organic matter: Insights from density functional theory calculations
+2026-08-10 17:59:19 [INFO] Translated title: An energy-efficient CO2/pulsating H2O(g) strategy for advancing biochar gasification
+2026-08-10 17:59:20 [INFO] Translated title: Influence of metal loading and temperature on methane decomposition and nano-carbon formation over iron catalyst supported by sawdust biochar and alumina
+2026-08-10 17:59:21 [INFO] Translated title: Scaled-Up Microwave-Assisted Continuous Pyrolysisfor Mixed Plastic Waste Valorization: Process Design and Techno-EconomicAnalysis toward Technology Industrialization
+2026-08-10 17:59:21 [INFO] Translated title: Synergistic Production of Fuel-Grade Bio-Oil and CarbonRich Biochar from Co-Pyrolysis of Spent Coffee Grounds and HDPE: ProcessOptimization Using Response Surface Methodology and Machine Learning
+2026-08-10 17:59:22 [INFO] Translated title: Unraveling the effect of olive-mill waste biostimulant particles during photosynthetic biogas upgrading coupled with pigment production
+2026-08-10 17:59:22 [INFO] Translated title: Acidogenic fermentation of thermally hydrolyzed organic matter recovered from residual municipal waste: process performance and insights from batch and semi-continuous operation
+2026-08-10 17:59:22 [INFO] Translated title: Identification of a membrane transporter for dimethylsulfoniopropionate uptake in marine eukaryotic phytoplankton
+2026-08-10 17:59:22 [WARNING] Skipping summary without abstract: Iron/sulfur cycling in pyrite-biochar constructed wetlands enhances PFOA removal, nutrient metabolism and greenhouse gas mitigation
+2026-08-10 17:59:22 [WARNING] Skipping summary without abstract: Photodegradation process of microplastics mediated by biochar-derived dissolved organic matter: Insights from density functional theory calculations
+2026-08-10 17:59:22 [WARNING] Skipping summary without abstract: An energy-efficient CO2/pulsating H2O(g) strategy for advancing biochar gasification
+2026-08-10 17:59:22 [WARNING] Skipping summary without abstract: Influence of metal loading and temperature on methane decomposition and nano-carbon formation over iron catalyst supported by sawdust biochar and alumina
+2026-08-10 17:59:28 [INFO] Generated summary: Scaled-Up Microwave-Assisted Continuous Pyrolysisfor Mixed Plastic Waste Valorization: Process Design and Techno-EconomicAnalysis toward Technology Industrialization
+2026-08-10 17:59:32 [INFO] Generated summary: Synergistic Production of Fuel-Grade Bio-Oil and CarbonRich Biochar from Co-Pyrolysis of Spent Coffee Grounds and HDPE: ProcessOptimization Using Response Surface Methodology and Machine Learning
+2026-08-10 17:59:36 [INFO] Generated summary: Unraveling the effect of olive-mill waste biostimulant particles during photosynthetic biogas upgrading coupled with pigment production
+2026-08-10 17:59:41 [INFO] Generated summary: Acidogenic fermentation of thermally hydrolyzed organic matter recovered from residual municipal waste: process performance and insights from batch and semi-continuous operation
+2026-08-10 17:59:45 [INFO] Generated summary: Identification of a membrane transporter for dimethylsulfoniopropionate uptake in marine eukaryotic phytoplankton
+2026-08-10 17:59:45 [INFO] Generated report and rebuilt archive index: /home/runner/work/literature-radar/literature-radar/reports/weekly_report_2026-08-10.md
+2026-08-10 17:59:48 [INFO] Email sent successfully
+2026-08-10 17:59:48 [INFO] Run completed; GitHub Actions will commit generated files
