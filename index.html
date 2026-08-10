@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="按时间归档的文献雷达每周报告">
+    <title>文献雷达历史周报</title>
+    <style>
+:root {
+  color-scheme: light;
+  --ink: #18332d;
+  --muted: #60736e;
+  --brand: #147d64;
+  --brand-dark: #0c5c4a;
+  --accent: #d7a848;
+  --line: #dce7e2;
+  --surface: rgba(255, 255, 255, 0.92);
+  --shadow: 0 18px 50px rgba(24, 51, 45, 0.10);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 0%, rgba(20, 125, 100, 0.12), transparent 32rem),
+    linear-gradient(180deg, #f8fbf9 0%, #eef4f1 100%);
+  font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+a { color: inherit; }
+.container { width: min(1080px, calc(100% - 40px)); margin: 0 auto; }
+.hero { padding: 72px 0 38px; }
+.eyebrow {
+  color: var(--brand);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+h1 { margin: 8px 0 12px; font-size: clamp(2rem, 6vw, 3.8rem); line-height: 1.15; }
+.subtitle { max-width: 680px; color: var(--muted); font-size: 1.05rem; }
+.stats { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.stat {
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--muted);
+}
+.stat strong { color: var(--ink); }
+.report-grid { display: grid; gap: 18px; padding: 10px 0 72px; }
+.report-card {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.7fr) 1fr auto;
+  gap: 24px;
+  align-items: center;
+  padding: 25px 28px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: 0 8px 24px rgba(24, 51, 45, 0.06);
+  text-decoration: none;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+.report-card:hover, .report-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: rgba(20, 125, 100, 0.45);
+  box-shadow: var(--shadow);
+  outline: none;
+}
+.card-date { font-size: 1.3rem; font-weight: 800; }
+.card-meta { display: flex; flex-wrap: wrap; gap: 10px; color: var(--muted); }
+.card-meta span { padding: 4px 10px; border-radius: 999px; background: #edf6f2; }
+.arrow { color: var(--brand); font-weight: 800; white-space: nowrap; }
+.empty { padding: 48px; border: 1px dashed var(--line); border-radius: 20px; text-align: center; color: var(--muted); }
+.topbar { padding: 22px 0; border-bottom: 1px solid var(--line); background: rgba(248, 251, 249, 0.82); }
+.back-link { color: var(--brand-dark); font-weight: 750; text-decoration: none; }
+.report-shell { padding: 48px 0 80px; }
+.report-header, .paper {
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: 0 8px 28px rgba(24, 51, 45, 0.06);
+}
+.report-header { padding: clamp(24px, 5vw, 44px); margin-bottom: 32px; }
+.report-header h1 { font-size: clamp(1.8rem, 5vw, 3rem); }
+.issue-badge { display: inline-block; padding: 5px 12px; border-radius: 999px; background: #e4f3ed; color: var(--brand-dark); font-weight: 800; }
+.report-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.report-meta span { padding: 7px 12px; border-radius: 10px; background: #f0f5f2; color: var(--muted); }
+.section-title { margin: 38px 0 16px; font-size: 1.45rem; }
+.section-title::before { content: ""; display: inline-block; width: 5px; height: 1.05em; margin-right: 10px; border-radius: 3px; background: var(--accent); vertical-align: -0.12em; }
+.paper { padding: clamp(20px, 4vw, 30px); margin-bottom: 16px; }
+.paper-title { margin: 0 0 12px; font-size: 1.12rem; font-weight: 800; line-height: 1.5; }
+.paper p { margin: 7px 0; color: #405650; }
+.paper .original-title { color: var(--muted); font-style: italic; }
+.paper .summary { margin-top: 14px; padding: 15px 17px; border-left: 4px solid var(--brand); border-radius: 0 12px 12px 0; background: #edf6f2; color: var(--ink); }
+.paper a { color: var(--brand-dark); overflow-wrap: anywhere; }
+footer { padding: 28px 0 48px; color: var(--muted); text-align: center; font-size: 0.9rem; }
+@media (max-width: 700px) {
+  .container { width: min(100% - 24px, 1080px); }
+  .hero { padding-top: 44px; }
+  .report-card { grid-template-columns: 1fr; gap: 10px; padding: 21px; }
+  .arrow { justify-self: start; }
+}
+</style>
+  </head>
+  <body>
+    <main class="container">
+      <header class="hero">
+        <div class="eyebrow">Weekly Literature Radar</div>
+        <h1>📚 历史文献周报</h1>
+        <p class="subtitle">按周保存你的研究领域新文献，随时回看标题、作者、期刊信息与 AI 中文摘要。</p>
+        <div class="stats">
+          <div class="stat">累计 <strong>1</strong> 期</div>
+          <div class="stat">收录 <strong>9</strong> 篇论文</div>
+        </div>
+      </header>
+      <section class="report-grid" aria-label="历史周报列表">
+        <a class="report-card" href="reports/weekly_report_2026-08-10.html">
+          <div class="card-date">2026-08-10</div>
+          <div class="card-meta"><span>第 1 期</span><span>共 9 篇</span></div>
+          <div class="arrow">查看完整周报 →</div>
+        </a>
+      </section>
+    </main>
+    <footer>Literature Radar · 每周一自动更新</footer>
+  </body>
+</html>

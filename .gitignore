@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+_site/
+.env
+secrets.ps1
+backup/
+research/

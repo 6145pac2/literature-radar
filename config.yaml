@@ -1,0 +1,254 @@
+# ============================================================
+# 文献雷达系统配置文件
+# 关键词和期刊已经预填；三个凭据只从环境变量或 GitHub Secrets 读取。
+# 以后如果要加关键词、换期刊，可以直接在 GitHub 网页上编辑这个文件。
+# ============================================================
+
+email:
+  sender: "541651673@qq.com"
+  receiver: "541651673@qq.com"
+  smtp_server: "smtp.qq.com"
+  smtp_port: 465
+  smtp_encryption: "SSL"
+  authorization_code: null
+  timeout: 30
+
+openalex:
+  api_key: null
+  base_url: "https://api.openalex.org/works"
+
+deepseek:
+  api_key: null
+  base_url: "https://api.deepseek.com"
+  model: "deepseek-chat"
+  max_tokens: 1600
+  temperature: 0.3
+  timeout: 30
+
+keywords:
+  topics:
+    - "hydrothermal liquefaction"
+    - "biocrude"
+    - "waste valorization"
+    - "microalgae"
+    - "biochar"
+    - "biorefinery"
+  exclude:
+    - "medical"
+    - "building structure"
+
+journals:
+  - name: "Nature"
+    issn: "0028-0836"
+    if: 56.1
+    rank: "综合性期刊 1区"
+  - name: "Nature Energy"
+    issn: "2058-7546"
+    if: 70.1
+    rank: "材料科学 1区"
+  - name: "Nature Catalysis"
+    issn: "2520-1158"
+    if: 44.6
+    rank: "化学 1区"
+  - name: "Nature Sustainability"
+    issn: "2398-9629"
+    if: 32.1
+    rank: "环境科学与生态学 1区"
+  - name: "Nature Materials"
+    issn: "1476-1122"
+    if: 38.0
+    rank: "材料科学 1区"
+  - name: "Nature Nanotechnology"
+    issn: "1748-3387"
+    if: 37.5
+    rank: "材料科学 1区"
+  - name: "Nature Chemistry"
+    issn: "1755-4330"
+    if: 18.4
+    rank: "化学 1区"
+  - name: "Nature Chemical Biology"
+    issn: "1552-4450"
+    if: 15.8
+    if_year: 2025
+    rank: "大类分区未提供；Top"
+    rank_year: 2025
+    top: true
+  - name: "Nature Communications"
+    issn: "2041-1723"
+    if: 16.6
+    rank: "综合性期刊 1区"
+  - name: "Nature Plants"
+    issn: "2055-026X"
+    if: 15.0
+    if_year: 2025
+    rank: "生物学 1区 Top"
+    rank_year: 2025
+    rank_detail: "植物科学 1区"
+    top: true
+  - name: "Nature Reviews Clean Technology"
+    issn: "3004-8478"
+    if: null
+    rank: null
+  - name: "Nature Water"
+    issn: "2731-6084"
+    if: 30.7
+    if_year: 2025
+    rank: "环境科学与生态学 1区 Top"
+    rank_year: 2025
+    rank_detail: "环境科学 1区；水资源 1区"
+    top: true
+  - name: "Science"
+    issn: "0036-8075"
+    if: 47.3
+    rank: "综合性期刊 1区"
+  - name: "Science Advances"
+    issn: "2375-2548"
+    if: 13.9
+    if_year: 2025
+    rank: "综合性期刊 1区 Top"
+    rank_year: 2025
+    rank_detail: "综合性期刊（MULTIDISCIPLINARY SCIENCES）1区"
+    top: true
+  - name: "Science Translational Medicine"
+    issn: "1946-6234"
+    if: 15.6
+    if_year: 2025
+    rank: "医学 1区 Top"
+    rank_year: 2025
+    rank_detail: "细胞生物学 1区；医学：研究与实验 1区"
+    top: true
+  - name: "Cell"
+    issn: "0092-8674"
+    if: 45.1
+    rank: "生物学 1区"
+  - name: "Joule"
+    issn: "2542-4351"
+    if: 37.1
+    rank: "材料科学 1区"
+  - name: "Chem"
+    issn: "2451-9294"
+    if: 19.1
+    rank: "化学 1区"
+  - name: "Chem Catalysis"
+    issn: "2667-1107"
+    if: 11.6
+    if_checked: "2026-08-10 publisher current value"
+    rank: "化学 1区 Top"
+    rank_year: 2025
+    rank_detail: "物理化学 2区；JCR Q1（ESCI）"
+    top: true
+  - name: "Matter"
+    issn: "2590-2385"
+    if: 15.7
+    rank: "材料科学 1区"
+  - name: "One Earth"
+    issn: "2590-3330"
+    if: 15.3
+    if_checked: "2026-08-10 publisher current value"
+    rank: "环境科学与生态学 1区 Top"
+    rank_year: 2025
+    rank_detail: "环境科学 1区；环境研究 1区；绿色可持续发展技术 1区"
+    top: true
+  - name: "Renewable and Sustainable Energy Reviews"
+    issn: "1364-0321"
+    if: 16.3
+    rank: "工程技术 1区 Top"
+  - name: "Chemical Engineering Journal"
+    issn: "1385-8947"
+    if: 15.1
+    rank: "工程技术 1区 Top"
+  - name: "Bioresource Technology"
+    issn: "0960-8524"
+    if: 11.4
+    rank: "工程技术 1区 Top"
+  - name: "Journal of Cleaner Production"
+    issn: "0959-6526"
+    if: 11.1
+    rank: "工程技术 1区"
+  - name: "Energy"
+    issn: "0360-5442"
+    if: 9.4
+    if_checked: "2026-08-10 publisher current value"
+    rank: "工程技术 1区 Top"
+    rank_year: 2025
+    rank_detail: "热力学 1区；能源与燃料 2区"
+    top: true
+  - name: "Fuel"
+    issn: "0016-2361"
+    if: 7.5
+    if_checked: "2026-08-10 publisher current value"
+    rank: "工程技术 2区 Top"
+    rank_year: 2025
+    rank_detail: "能源与燃料 2区；工程：化工 2区"
+    top: true
+  - name: "Chemosphere"
+    issn: "0045-6535"
+    if: 8.9
+    rank: "环境科学与生态学 2区"
+  - name: "Industrial & Engineering Chemistry Research"
+    issn: "0888-5885"
+    if: 3.9
+    if_checked: "2025 publisher data"
+    rank: "工程技术 3区"
+    rank_year: 2025
+    rank_detail: "工程：化工 3区"
+    top: false
+  - name: "Energy & Fuels"
+    issn: "0887-0624"
+    if: 6.0
+    if_checked: "2025 publisher data"
+    rank: "工程技术 3区"
+    rank_year: 2025
+    rank_detail: "工程：化工 3区；能源与燃料 3区/4区（来源注明随年份浮动）"
+  - name: "Applied Energy"
+    issn: "0306-2619"
+    if: 11.0
+    if_checked: "2026-08-10 publisher current value"
+    rank: "工程技术 1区 Top"
+    rank_year: 2025
+    rank_detail: "能源与燃料 2区；工程：化工 1区"
+    top: true
+  - name: "Green Chemistry"
+    issn: "1463-9262"
+    if: 10.6
+    if_year: 2025
+    rank: "化学 1区 Top"
+    rank_year: 2025
+    rank_detail: "化学综合 2区；绿色可持续发展技术 2区/3区（来源注明存在浮动）"
+    top: true
+  - name: "International Journal of Hydrogen Energy"
+    issn: "0360-3199"
+    if: 8.3
+    if_checked: "2026-08-10 publisher current value"
+    rank: "材料科学 2区"
+    rank_year: 2025
+    rank_detail: "物理化学 2区；电化学 2区；能源与燃料 2区/3区（来源注明存在浮动）"
+  - name: "International Journal of Agricultural and Biological Engineering"
+    issn: "1934-6344"
+    if: 3.1
+    if_year: 2025
+    rank: null
+  - name: "农业工程学报"
+    issn: "1002-6819"
+    if: null
+    rank: null
+    other_rank: "中国科技期刊分级 T1级（非中科院分区）"
+  - name: "Biochemical Engineering Journal"
+    issn: "1369-703X"
+    if: 3.8
+    if_checked: "2026-08-10 publisher current value"
+    rank: "生物学 3区"
+    rank_year: 2025
+    rank_detail: "生物工程与应用微生物 3区；工程：化工 3区；部分旧版大类为工程技术 3区"
+  - name: "Frontiers in Microbiology"
+    issn: "1664-302X"
+    if: 5.8
+    if_year: 2025
+    rank: "生物学 2区"
+    rank_year: 2025
+    rank_detail: "微生物学 3区；Top状态未提供"
+
+system:
+  timezone: "Asia/Shanghai"
+  cron_schedule: "30 1 * * 1"
+  top_k_summaries: 10
