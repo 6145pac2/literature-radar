@@ -1,0 +1,110 @@
+2026-08-17 10:44:53 [INFO] Starting literature run for [2026-08-10, 2026-08-17)
+2026-08-17 10:44:53 [INFO] Querying OpenAlex: Nature page 1
+2026-08-17 10:44:55 [INFO] Querying OpenAlex: Nature page 2
+2026-08-17 10:44:55 [INFO] Retrieved 86 dated works from Nature
+2026-08-17 10:44:55 [INFO] Querying OpenAlex: Nature Energy page 1
+2026-08-17 10:44:55 [INFO] Retrieved 1 dated works from Nature Energy
+2026-08-17 10:44:55 [INFO] Querying OpenAlex: Nature Catalysis page 1
+2026-08-17 10:44:56 [INFO] Retrieved 5 dated works from Nature Catalysis
+2026-08-17 10:44:56 [INFO] Querying OpenAlex: Nature Sustainability page 1
+2026-08-17 10:44:56 [INFO] Retrieved 4 dated works from Nature Sustainability
+2026-08-17 10:44:56 [INFO] Querying OpenAlex: Nature Materials page 1
+2026-08-17 10:44:56 [INFO] Retrieved 6 dated works from Nature Materials
+2026-08-17 10:44:56 [INFO] Querying OpenAlex: Nature Nanotechnology page 1
+2026-08-17 10:44:57 [INFO] Retrieved 7 dated works from Nature Nanotechnology
+2026-08-17 10:44:57 [INFO] Querying OpenAlex: Nature Chemistry page 1
+2026-08-17 10:44:57 [INFO] Retrieved 1 dated works from Nature Chemistry
+2026-08-17 10:44:57 [INFO] Querying OpenAlex: Nature Chemical Biology page 1
+2026-08-17 10:44:57 [INFO] Retrieved 4 dated works from Nature Chemical Biology
+2026-08-17 10:44:57 [INFO] Querying OpenAlex: Nature Communications page 1
+2026-08-17 10:44:58 [INFO] Querying OpenAlex: Nature Communications page 2
+2026-08-17 10:44:58 [INFO] Querying OpenAlex: Nature Communications page 3
+2026-08-17 10:44:59 [INFO] Querying OpenAlex: Nature Communications page 4
+2026-08-17 10:44:59 [INFO] Querying OpenAlex: Nature Communications page 5
+2026-08-17 10:45:00 [INFO] Querying OpenAlex: Nature Communications page 6
+2026-08-17 10:45:00 [INFO] Retrieved 255 dated works from Nature Communications
+2026-08-17 10:45:00 [INFO] Querying OpenAlex: Nature Plants page 1
+2026-08-17 10:45:00 [INFO] Retrieved 11 dated works from Nature Plants
+2026-08-17 10:45:00 [INFO] Querying OpenAlex: Nature Reviews Clean Technology page 1
+2026-08-17 10:45:01 [INFO] Retrieved 0 dated works from Nature Reviews Clean Technology
+2026-08-17 10:45:01 [INFO] Querying OpenAlex: Nature Water page 1
+2026-08-17 10:45:01 [INFO] Retrieved 3 dated works from Nature Water
+2026-08-17 10:45:01 [INFO] Querying OpenAlex: Science page 1
+2026-08-17 10:45:01 [INFO] Retrieved 38 dated works from Science
+2026-08-17 10:45:01 [INFO] Querying OpenAlex: Science Advances page 1
+2026-08-17 10:45:02 [INFO] Querying OpenAlex: Science Advances page 2
+2026-08-17 10:45:02 [INFO] Retrieved 85 dated works from Science Advances
+2026-08-17 10:45:02 [INFO] Querying OpenAlex: Science Translational Medicine page 1
+2026-08-17 10:45:03 [INFO] Retrieved 8 dated works from Science Translational Medicine
+2026-08-17 10:45:03 [INFO] Querying OpenAlex: Cell page 1
+2026-08-17 10:45:03 [INFO] Retrieved 0 dated works from Cell
+2026-08-17 10:45:03 [INFO] Querying OpenAlex: Joule page 1
+2026-08-17 10:45:03 [INFO] Retrieved 0 dated works from Joule
+2026-08-17 10:45:03 [INFO] Querying OpenAlex: Chem page 1
+2026-08-17 10:45:03 [INFO] Retrieved 0 dated works from Chem
+2026-08-17 10:45:03 [INFO] Querying OpenAlex: Chem Catalysis page 1
+2026-08-17 10:45:03 [INFO] Retrieved 0 dated works from Chem Catalysis
+2026-08-17 10:45:03 [INFO] Querying OpenAlex: Matter page 1
+2026-08-17 10:45:04 [INFO] Retrieved 0 dated works from Matter
+2026-08-17 10:45:04 [INFO] Querying OpenAlex: One Earth page 1
+2026-08-17 10:45:04 [INFO] Retrieved 0 dated works from One Earth
+2026-08-17 10:45:04 [INFO] Querying OpenAlex: Renewable and Sustainable Energy Reviews page 1
+2026-08-17 10:45:04 [INFO] Retrieved 19 dated works from Renewable and Sustainable Energy Reviews
+2026-08-17 10:45:04 [INFO] Querying OpenAlex: Chemical Engineering Journal page 1
+2026-08-17 10:45:05 [INFO] Querying OpenAlex: Chemical Engineering Journal page 2
+2026-08-17 10:45:05 [INFO] Querying OpenAlex: Chemical Engineering Journal page 3
+2026-08-17 10:45:05 [INFO] Retrieved 110 dated works from Chemical Engineering Journal
+2026-08-17 10:45:05 [INFO] Querying OpenAlex: Bioresource Technology page 1
+2026-08-17 10:45:06 [INFO] Retrieved 14 dated works from Bioresource Technology
+2026-08-17 10:45:06 [INFO] Querying OpenAlex: Journal of Cleaner Production page 1
+2026-08-17 10:45:06 [INFO] Retrieved 30 dated works from Journal of Cleaner Production
+2026-08-17 10:45:06 [INFO] Querying OpenAlex: Energy page 1
+2026-08-17 10:45:06 [INFO] Retrieved 7 dated works from Energy
+2026-08-17 10:45:06 [INFO] Querying OpenAlex: Fuel page 1
+2026-08-17 10:45:07 [INFO] Querying OpenAlex: Fuel page 2
+2026-08-17 10:45:07 [INFO] Retrieved 70 dated works from Fuel
+2026-08-17 10:45:07 [INFO] Querying OpenAlex: Chemosphere page 1
+2026-08-17 10:45:07 [INFO] Retrieved 6 dated works from Chemosphere
+2026-08-17 10:45:07 [INFO] Querying OpenAlex: Industrial & Engineering Chemistry Research page 1
+2026-08-17 10:45:08 [INFO] Retrieved 41 dated works from Industrial & Engineering Chemistry Research
+2026-08-17 10:45:08 [INFO] Querying OpenAlex: Energy & Fuels page 1
+2026-08-17 10:45:08 [INFO] Retrieved 42 dated works from Energy & Fuels
+2026-08-17 10:45:08 [INFO] Querying OpenAlex: Applied Energy page 1
+2026-08-17 10:45:09 [INFO] Querying OpenAlex: Applied Energy page 2
+2026-08-17 10:45:09 [INFO] Retrieved 50 dated works from Applied Energy
+2026-08-17 10:45:09 [INFO] Querying OpenAlex: Green Chemistry page 1
+2026-08-17 10:45:09 [INFO] Retrieved 0 dated works from Green Chemistry
+2026-08-17 10:45:09 [INFO] Querying OpenAlex: International Journal of Hydrogen Energy page 1
+2026-08-17 10:45:10 [INFO] Querying OpenAlex: International Journal of Hydrogen Energy page 2
+2026-08-17 10:45:10 [INFO] Retrieved 51 dated works from International Journal of Hydrogen Energy
+2026-08-17 10:45:10 [INFO] Querying OpenAlex: International Journal of Agricultural and Biological Engineering page 1
+2026-08-17 10:45:10 [INFO] Retrieved 0 dated works from International Journal of Agricultural and Biological Engineering
+2026-08-17 10:45:10 [INFO] Querying OpenAlex: 农业工程学报 page 1
+2026-08-17 10:45:10 [INFO] Retrieved 0 dated works from 农业工程学报
+2026-08-17 10:45:10 [INFO] Querying OpenAlex: Biochemical Engineering Journal page 1
+2026-08-17 10:45:11 [INFO] Retrieved 4 dated works from Biochemical Engineering Journal
+2026-08-17 10:45:11 [INFO] Querying OpenAlex: Frontiers in Microbiology page 1
+2026-08-17 10:45:11 [INFO] Querying OpenAlex: Frontiers in Microbiology page 2
+2026-08-17 10:45:12 [INFO] Retrieved 87 dated works from Frontiers in Microbiology
+2026-08-17 10:45:12 [INFO] Keyword filtering retained 8 of 1045 works
+2026-08-17 10:45:12 [INFO] Historical deduplication retained 8 new papers
+2026-08-17 10:45:12 [INFO] History persisted before report delivery
+2026-08-17 10:45:12 [INFO] Translated title: Catalytic Upgradingof Wheat Straw-Derived HydrothermalLiquefaction Biocrude over Fe-Impregnated Hydrochar
+2026-08-17 10:45:12 [INFO] Translated title: Techno-economic assessment of an integrated biorefinery for the production of advanced biofuels from the organic fraction of municipal solid waste
+2026-08-17 10:45:13 [INFO] Translated title: Magnetic biochar as dual-functional mediator for low-field magnetic separation of vivianite and membrane fouling mitigation in anaerobic membrane bioreactors
+2026-08-17 10:45:13 [INFO] Translated title: Multifunctional Fe-biochar for simultaneously enhancing methanogenesis and mitigating membrane fouling in anaerobic membrane bioreactor treating brewery wastewater
+2026-08-17 10:45:13 [INFO] Translated title: Carbon Structure evolution of biochar derived from carbonization of typical agricultural biomass
+2026-08-17 10:45:13 [INFO] Translated title: Biological biogas upgrading using microalgae: From methane enrichment to value-added bioproducts
+2026-08-17 10:45:14 [INFO] Translated title: Integrated microalgal process for biogas upgrading, digestate bioremediation and astaxanthin production
+2026-08-17 10:45:14 [INFO] Translated title: Sustainable process for increased lutein production in green microalga Coelastrella thermophila
+2026-08-17 10:45:19 [INFO] Generated summary: Catalytic Upgradingof Wheat Straw-Derived HydrothermalLiquefaction Biocrude over Fe-Impregnated Hydrochar
+2026-08-17 10:45:23 [INFO] Generated summary: Techno-economic assessment of an integrated biorefinery for the production of advanced biofuels from the organic fraction of municipal solid waste
+2026-08-17 10:45:23 [WARNING] Skipping summary without abstract: Magnetic biochar as dual-functional mediator for low-field magnetic separation of vivianite and membrane fouling mitigation in anaerobic membrane bioreactors
+2026-08-17 10:45:23 [WARNING] Skipping summary without abstract: Multifunctional Fe-biochar for simultaneously enhancing methanogenesis and mitigating membrane fouling in anaerobic membrane bioreactor treating brewery wastewater
+2026-08-17 10:45:23 [WARNING] Skipping summary without abstract: Carbon Structure evolution of biochar derived from carbonization of typical agricultural biomass
+2026-08-17 10:45:23 [WARNING] Skipping summary without abstract: Biological biogas upgrading using microalgae: From methane enrichment to value-added bioproducts
+2026-08-17 10:45:28 [INFO] Generated summary: Integrated microalgal process for biogas upgrading, digestate bioremediation and astaxanthin production
+2026-08-17 10:45:34 [INFO] Generated summary: Sustainable process for increased lutein production in green microalga Coelastrella thermophila
+2026-08-17 10:45:34 [INFO] Generated report and rebuilt archive index: /home/runner/work/literature-radar/literature-radar/reports/weekly_report_2026-08-17.md
+2026-08-17 10:45:38 [INFO] Email sent successfully
+2026-08-17 10:45:38 [INFO] Run completed; GitHub Actions will commit generated files
