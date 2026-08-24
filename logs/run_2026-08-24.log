@@ -1,0 +1,115 @@
+2026-08-24 10:48:47 [INFO] Starting literature run for [2026-08-17, 2026-08-24)
+2026-08-24 10:48:47 [INFO] Querying OpenAlex: Nature page 1
+2026-08-24 10:48:49 [INFO] Querying OpenAlex: Nature page 2
+2026-08-24 10:48:49 [INFO] Retrieved 74 dated works from Nature
+2026-08-24 10:48:49 [INFO] Querying OpenAlex: Nature Energy page 1
+2026-08-24 10:48:49 [INFO] Retrieved 6 dated works from Nature Energy
+2026-08-24 10:48:49 [INFO] Querying OpenAlex: Nature Catalysis page 1
+2026-08-24 10:48:50 [INFO] Retrieved 5 dated works from Nature Catalysis
+2026-08-24 10:48:50 [INFO] Querying OpenAlex: Nature Sustainability page 1
+2026-08-24 10:48:50 [INFO] Retrieved 8 dated works from Nature Sustainability
+2026-08-24 10:48:50 [INFO] Querying OpenAlex: Nature Materials page 1
+2026-08-24 10:48:50 [INFO] Retrieved 6 dated works from Nature Materials
+2026-08-24 10:48:50 [INFO] Querying OpenAlex: Nature Nanotechnology page 1
+2026-08-24 10:48:51 [INFO] Retrieved 3 dated works from Nature Nanotechnology
+2026-08-24 10:48:51 [INFO] Querying OpenAlex: Nature Chemistry page 1
+2026-08-24 10:48:51 [INFO] Retrieved 9 dated works from Nature Chemistry
+2026-08-24 10:48:51 [INFO] Querying OpenAlex: Nature Chemical Biology page 1
+2026-08-24 10:48:51 [INFO] Retrieved 6 dated works from Nature Chemical Biology
+2026-08-24 10:48:51 [INFO] Querying OpenAlex: Nature Communications page 1
+2026-08-24 10:48:52 [INFO] Querying OpenAlex: Nature Communications page 2
+2026-08-24 10:48:53 [INFO] Querying OpenAlex: Nature Communications page 3
+2026-08-24 10:48:53 [INFO] Querying OpenAlex: Nature Communications page 4
+2026-08-24 10:48:54 [INFO] Querying OpenAlex: Nature Communications page 5
+2026-08-24 10:48:54 [INFO] Querying OpenAlex: Nature Communications page 6
+2026-08-24 10:48:55 [INFO] Retrieved 257 dated works from Nature Communications
+2026-08-24 10:48:55 [INFO] Querying OpenAlex: Nature Plants page 1
+2026-08-24 10:48:55 [INFO] Retrieved 9 dated works from Nature Plants
+2026-08-24 10:48:55 [INFO] Querying OpenAlex: Nature Reviews Clean Technology page 1
+2026-08-24 10:48:55 [INFO] Retrieved 0 dated works from Nature Reviews Clean Technology
+2026-08-24 10:48:55 [INFO] Querying OpenAlex: Nature Water page 1
+2026-08-24 10:48:56 [INFO] Retrieved 0 dated works from Nature Water
+2026-08-24 10:48:56 [INFO] Querying OpenAlex: Science page 1
+2026-08-24 10:48:56 [INFO] Retrieved 32 dated works from Science
+2026-08-24 10:48:56 [INFO] Querying OpenAlex: Science Advances page 1
+2026-08-24 10:48:57 [INFO] Querying OpenAlex: Science Advances page 2
+2026-08-24 10:48:57 [INFO] Retrieved 91 dated works from Science Advances
+2026-08-24 10:48:57 [INFO] Querying OpenAlex: Science Translational Medicine page 1
+2026-08-24 10:48:58 [INFO] Retrieved 8 dated works from Science Translational Medicine
+2026-08-24 10:48:58 [INFO] Querying OpenAlex: Cell page 1
+2026-08-24 10:48:58 [INFO] Retrieved 0 dated works from Cell
+2026-08-24 10:48:58 [INFO] Querying OpenAlex: Joule page 1
+2026-08-24 10:48:59 [INFO] Retrieved 0 dated works from Joule
+2026-08-24 10:48:59 [INFO] Querying OpenAlex: Chem page 1
+2026-08-24 10:48:59 [INFO] Retrieved 0 dated works from Chem
+2026-08-24 10:48:59 [INFO] Querying OpenAlex: Chem Catalysis page 1
+2026-08-24 10:48:59 [INFO] Retrieved 0 dated works from Chem Catalysis
+2026-08-24 10:48:59 [INFO] Querying OpenAlex: Matter page 1
+2026-08-24 10:48:59 [INFO] Retrieved 0 dated works from Matter
+2026-08-24 10:48:59 [INFO] Querying OpenAlex: One Earth page 1
+2026-08-24 10:49:00 [INFO] Retrieved 0 dated works from One Earth
+2026-08-24 10:49:00 [INFO] Querying OpenAlex: Renewable and Sustainable Energy Reviews page 1
+2026-08-24 10:49:00 [INFO] Retrieved 14 dated works from Renewable and Sustainable Energy Reviews
+2026-08-24 10:49:00 [INFO] Querying OpenAlex: Chemical Engineering Journal page 1
+2026-08-24 10:49:01 [INFO] Querying OpenAlex: Chemical Engineering Journal page 2
+2026-08-24 10:49:01 [INFO] Retrieved 74 dated works from Chemical Engineering Journal
+2026-08-24 10:49:01 [INFO] Querying OpenAlex: Bioresource Technology page 1
+2026-08-24 10:49:02 [INFO] Retrieved 24 dated works from Bioresource Technology
+2026-08-24 10:49:02 [INFO] Querying OpenAlex: Journal of Cleaner Production page 1
+2026-08-24 10:49:02 [INFO] Querying OpenAlex: Journal of Cleaner Production page 2
+2026-08-24 10:49:03 [INFO] Retrieved 53 dated works from Journal of Cleaner Production
+2026-08-24 10:49:03 [INFO] Querying OpenAlex: Energy page 1
+2026-08-24 10:49:03 [INFO] Retrieved 13 dated works from Energy
+2026-08-24 10:49:03 [INFO] Querying OpenAlex: Fuel page 1
+2026-08-24 10:49:03 [INFO] Querying OpenAlex: Fuel page 2
+2026-08-24 10:49:04 [INFO] Retrieved 64 dated works from Fuel
+2026-08-24 10:49:04 [INFO] Querying OpenAlex: Chemosphere page 1
+2026-08-24 10:49:04 [INFO] Retrieved 4 dated works from Chemosphere
+2026-08-24 10:49:04 [INFO] Querying OpenAlex: Industrial & Engineering Chemistry Research page 1
+2026-08-24 10:49:05 [INFO] Retrieved 35 dated works from Industrial & Engineering Chemistry Research
+2026-08-24 10:49:05 [INFO] Querying OpenAlex: Energy & Fuels page 1
+2026-08-24 10:49:05 [INFO] Retrieved 31 dated works from Energy & Fuels
+2026-08-24 10:49:05 [INFO] Querying OpenAlex: Applied Energy page 1
+2026-08-24 10:49:06 [INFO] Retrieved 29 dated works from Applied Energy
+2026-08-24 10:49:06 [INFO] Querying OpenAlex: Green Chemistry page 1
+2026-08-24 10:49:06 [INFO] Retrieved 0 dated works from Green Chemistry
+2026-08-24 10:49:06 [INFO] Querying OpenAlex: International Journal of Hydrogen Energy page 1
+2026-08-24 10:49:06 [INFO] Querying OpenAlex: International Journal of Hydrogen Energy page 2
+2026-08-24 10:49:07 [INFO] Querying OpenAlex: International Journal of Hydrogen Energy page 3
+2026-08-24 10:49:07 [INFO] Retrieved 104 dated works from International Journal of Hydrogen Energy
+2026-08-24 10:49:07 [INFO] Querying OpenAlex: International Journal of Agricultural and Biological Engineering page 1
+2026-08-24 10:49:08 [INFO] Retrieved 0 dated works from International Journal of Agricultural and Biological Engineering
+2026-08-24 10:49:08 [INFO] Querying OpenAlex: 农业工程学报 page 1
+2026-08-24 10:49:08 [INFO] Retrieved 0 dated works from 农业工程学报
+2026-08-24 10:49:08 [INFO] Querying OpenAlex: Biochemical Engineering Journal page 1
+2026-08-24 10:49:08 [INFO] Retrieved 8 dated works from Biochemical Engineering Journal
+2026-08-24 10:49:08 [INFO] Querying OpenAlex: Frontiers in Microbiology page 1
+2026-08-24 10:49:09 [INFO] Querying OpenAlex: Frontiers in Microbiology page 2
+2026-08-24 10:49:09 [INFO] Retrieved 73 dated works from Frontiers in Microbiology
+2026-08-24 10:49:09 [INFO] Keyword filtering retained 11 of 1040 works
+2026-08-24 10:49:09 [INFO] Historical deduplication retained 11 new papers
+2026-08-24 10:49:09 [INFO] History persisted before report delivery
+2026-08-24 10:49:09 [INFO] Translated title: Data-driven process simulation and techno-economic evaluation of microalgae hydrothermal liquefaction
+2026-08-24 10:49:09 [INFO] Translated title: Biorefinery-Induced Structural Evolution and Electrochemical Performance of Chaetomorpha antennina -Derived Activated Carbon for Supercapacitors
+2026-08-24 10:49:10 [INFO] Translated title: Fenton sludge-derived biochar for enhancing constructed wetland-microbial fuel cell system performance: Mechanisms and comprehensive evaluation
+2026-08-24 10:49:10 [INFO] Translated title: Circular biovalorization of tofu whey wastewater using cocultured microalgae for producing high value feed and nutrition fortified laying hen products
+2026-08-24 10:49:10 [INFO] Translated title: Predicting methane production in biochar-assisted anaerobic digestion using random forest and SHAP analysis of multi-study experimental data
+2026-08-24 10:49:10 [INFO] Translated title: Metabolic redirection and capacity expansion in heterotroph-reinforced microalgae-methanotroph systems under high ammonia stress
+2026-08-24 10:49:10 [INFO] Translated title: Insight into peroxymonosulfate activation by biochar-derived dissolved organic matter toward in-situ sustainable groundwater remediation: The role of active functional groups and efficient electron shuttles
+2026-08-24 10:49:10 [INFO] Translated title: Flash Joule heating biochar for enhanced biodrying and carbon upgrading of food waste digestate
+2026-08-24 10:49:10 [INFO] Translated title: Advances and challenges of biochar-supported nanoscale zero-valent iron in anaerobic digestion for methane production: A comprehensive review
+2026-08-24 10:49:10 [INFO] Translated title: Polyethylene Terephthalate Waste-Derived Linker for Metal-Organic Framework-Based Cathode Catalyst in Microbial Electrolysis Cell for Hydrogen Production
+2026-08-24 10:49:10 [INFO] Translated title: Visible light–triggered co-upcycling of polypropylene and polyethylene terephthalate using waste chlorinated solvents
+2026-08-24 10:49:10 [WARNING] Skipping summary without abstract: Data-driven process simulation and techno-economic evaluation of microalgae hydrothermal liquefaction
+2026-08-24 10:49:15 [INFO] Generated summary: Biorefinery-Induced Structural Evolution and Electrochemical Performance of Chaetomorpha antennina -Derived Activated Carbon for Supercapacitors
+2026-08-24 10:49:15 [WARNING] Skipping summary without abstract: Fenton sludge-derived biochar for enhancing constructed wetland-microbial fuel cell system performance: Mechanisms and comprehensive evaluation
+2026-08-24 10:49:15 [WARNING] Skipping summary without abstract: Circular biovalorization of tofu whey wastewater using cocultured microalgae for producing high value feed and nutrition fortified laying hen products
+2026-08-24 10:49:15 [WARNING] Skipping summary without abstract: Predicting methane production in biochar-assisted anaerobic digestion using random forest and SHAP analysis of multi-study experimental data
+2026-08-24 10:49:15 [WARNING] Skipping summary without abstract: Metabolic redirection and capacity expansion in heterotroph-reinforced microalgae-methanotroph systems under high ammonia stress
+2026-08-24 10:49:15 [WARNING] Skipping summary without abstract: Insight into peroxymonosulfate activation by biochar-derived dissolved organic matter toward in-situ sustainable groundwater remediation: The role of active functional groups and efficient electron shuttles
+2026-08-24 10:49:15 [WARNING] Skipping summary without abstract: Flash Joule heating biochar for enhanced biodrying and carbon upgrading of food waste digestate
+2026-08-24 10:49:15 [WARNING] Skipping summary without abstract: Advances and challenges of biochar-supported nanoscale zero-valent iron in anaerobic digestion for methane production: A comprehensive review
+2026-08-24 10:49:19 [INFO] Generated summary: Polyethylene Terephthalate Waste-Derived Linker for Metal-Organic Framework-Based Cathode Catalyst in Microbial Electrolysis Cell for Hydrogen Production
+2026-08-24 10:49:19 [INFO] Generated report and rebuilt archive index: /home/runner/work/literature-radar/literature-radar/reports/weekly_report_2026-08-24.md
+2026-08-24 10:49:22 [INFO] Email sent successfully
+2026-08-24 10:49:22 [INFO] Run completed; GitHub Actions will commit generated files

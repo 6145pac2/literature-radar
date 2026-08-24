@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="文献雷达第 3 期，共 11 篇论文">
+    <title>文献雷达第 3 期 · 2026-08-24</title>
+    <style>
+:root {
+  color-scheme: light;
+  --ink: #18332d;
+  --muted: #60736e;
+  --brand: #147d64;
+  --brand-dark: #0c5c4a;
+  --accent: #d7a848;
+  --line: #dce7e2;
+  --surface: rgba(255, 255, 255, 0.92);
+  --shadow: 0 18px 50px rgba(24, 51, 45, 0.10);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 0%, rgba(20, 125, 100, 0.12), transparent 32rem),
+    linear-gradient(180deg, #f8fbf9 0%, #eef4f1 100%);
+  font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+a { color: inherit; }
+.container { width: min(1080px, calc(100% - 40px)); margin: 0 auto; }
+.hero { padding: 72px 0 38px; }
+.eyebrow {
+  color: var(--brand);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+h1 { margin: 8px 0 12px; font-size: clamp(2rem, 6vw, 3.8rem); line-height: 1.15; }
+.subtitle { max-width: 680px; color: var(--muted); font-size: 1.05rem; }
+.stats { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.stat {
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--muted);
+}
+.stat strong { color: var(--ink); }
+.report-grid { display: grid; gap: 18px; padding: 10px 0 72px; }
+.report-card {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.7fr) 1fr auto;
+  gap: 24px;
+  align-items: center;
+  padding: 25px 28px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: 0 8px 24px rgba(24, 51, 45, 0.06);
+  text-decoration: none;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+.report-card:hover, .report-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: rgba(20, 125, 100, 0.45);
+  box-shadow: var(--shadow);
+  outline: none;
+}
+.card-date { font-size: 1.3rem; font-weight: 800; }
+.card-meta { display: flex; flex-wrap: wrap; gap: 10px; color: var(--muted); }
+.card-meta span { padding: 4px 10px; border-radius: 999px; background: #edf6f2; }
+.arrow { color: var(--brand); font-weight: 800; white-space: nowrap; }
+.empty { padding: 48px; border: 1px dashed var(--line); border-radius: 20px; text-align: center; color: var(--muted); }
+.topbar { padding: 22px 0; border-bottom: 1px solid var(--line); background: rgba(248, 251, 249, 0.82); }
+.back-link { color: var(--brand-dark); font-weight: 750; text-decoration: none; }
+.report-shell { padding: 48px 0 80px; }
+.report-header, .paper {
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: 0 8px 28px rgba(24, 51, 45, 0.06);
+}
+.report-header { padding: clamp(24px, 5vw, 44px); margin-bottom: 32px; }
+.report-header h1 { font-size: clamp(1.8rem, 5vw, 3rem); }
+.issue-badge { display: inline-block; padding: 5px 12px; border-radius: 999px; background: #e4f3ed; color: var(--brand-dark); font-weight: 800; }
+.report-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.report-meta span { padding: 7px 12px; border-radius: 10px; background: #f0f5f2; color: var(--muted); }
+.section-title { margin: 38px 0 16px; font-size: 1.45rem; }
+.section-title::before { content: ""; display: inline-block; width: 5px; height: 1.05em; margin-right: 10px; border-radius: 3px; background: var(--accent); vertical-align: -0.12em; }
+.paper { padding: clamp(20px, 4vw, 30px); margin-bottom: 16px; }
+.paper-title { margin: 0 0 12px; font-size: 1.12rem; font-weight: 800; line-height: 1.5; }
+.paper p { margin: 7px 0; color: #405650; }
+.paper .original-title { color: var(--muted); font-style: italic; }
+.paper .summary { margin-top: 14px; padding: 15px 17px; border-left: 4px solid var(--brand); border-radius: 0 12px 12px 0; background: #edf6f2; color: var(--ink); }
+.paper a { color: var(--brand-dark); overflow-wrap: anywhere; }
+footer { padding: 28px 0 48px; color: var(--muted); text-align: center; font-size: 0.9rem; }
+@media (max-width: 700px) {
+  .container { width: min(100% - 24px, 1080px); }
+  .hero { padding-top: 44px; }
+  .report-card { grid-template-columns: 1fr; gap: 10px; padding: 21px; }
+  .arrow { justify-self: start; }
+}
+</style>
+  </head>
+  <body>
+    <nav class="topbar"><div class="container"><a class="back-link" href="../index.html">← 返回历史周报</a></div></nav>
+    <main class="container report-shell">
+      <header class="report-header">
+        <span class="issue-badge">第 3 期 · 共 11 篇</span>
+        <h1>文献雷达周报</h1>
+        <div class="card-date">2026-08-24</div>
+        <div class="report-meta"><span>日期范围：2026-08-17 至 2026-08-24（左闭右开）</span><span>论文总数：11</span><span>主题关键词：hydrothermal liquefaction、biocrude、waste valorization、microalgae、biochar、biorefinery</span><span>排除关键词：medical、building structure</span><span>相关性评分：标题每命中1个主题词 +10分，摘要每命中1个主题词 +3分；本期共6个主题词，理论总分78分</span><span>检索时间：2026-08-24T10:48:47+08:00</span></div>
+      </header>
+      <h2 class="section-title">水热转化</h2>
+<article class="paper">
+<h3 class="paper-title">1. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Data-driven process simulation and techno-economic evaluation of microalgae hydrothermal liquefaction)</p>
+<p>👤 Yongdong Xu, Shule Wang, Yuming Wen, Zhidan Liu</p>
+<p>📖 <strong>Energy</strong> | IF: 9.4 | 中科院: 工程技术 1区 Top（2025升级版）</p>
+<p>📚 小类分区: 热力学 1区；能源与燃料 2区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.energy.2026.142215" target="_blank" rel="noopener">10.1016/j.energy.2026.142215</a></p>
+<p>🎯 相关性得分: 20/78 (标题: hydrothermal liquefaction, microalgae; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<h2 class="section-title">废弃物资源化</h2>
+<article class="paper">
+<h3 class="paper-title">2. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Polyethylene Terephthalate Waste-Derived Linker for Metal-Organic Framework-Based Cathode Catalyst in Microbial Electrolysis Cell for Hydrogen Production)</p>
+<p>👤 Divyanshu Sikarwar, Anil Dhanda, Yasser Bashir, Aniket Kumar, Sovik Das</p>
+<p>📖 <strong>Energy &amp; Fuels</strong> | IF: 6.0 | 中科院: 工程技术 3区（2025升级版）</p>
+<p>📚 小类分区: 工程：化工 3区；能源与燃料 3区/4区（来源注明随年份浮动）</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1021/acs.energyfuels.6c02312" target="_blank" rel="noopener">10.1021/acs.energyfuels.6c02312</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: waste valorization)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：本研究旨在利用聚对苯二甲酸乙二醇酯（PET）废料衍生的对苯二甲酸连接体合成金属有机框架MIL-101（Fe），并涂覆二硫化钼（MoS2）纳米片，以替代昂贵的铂基阴极催化剂，用于单室微生物电解池（MEC）中增强产氢性能，实现低成本废物资源化与能源回收。</p>
+<p><strong>研究方法</strong>：以PET废料衍生的对苯二甲酸为连接体合成MIL-101（Fe），再与MoS2纳米片复合制备MoS2-MIL-101（Fe）阴极催化剂。通过扫描电子显微镜确认多面体和八面体结构，X射线光电子能谱中Mo–S–Fe峰证实MoS2锚定在MIL-101（Fe）上。采用电化学表征评估催化活性，并在单室MEC中测试产氢性能，同时测定化学需氧量去除率、阴极氢回收率和能量回收效率。</p>
+<p><strong>关键结果</strong>：MoS2-MIL-101（Fe）阴极表现出优异电化学活性，电荷转移电阻低至6.8 Ω，峰值电流密度为33.7 A/m2。采用该催化剂的MEC（MEC-M）最大产氢速率为0.80 ± 0.03 m3/m3·d，化学需氧量去除率为74.85 ± 3.97%，阴极氢回收率为75.74 ± 0.32%，能量回收效率为140.24 ± 0.58%。</p>
+<p><strong>主要结论</strong>：PET废料衍生的连接体可成功用于合成金属有机框架基低成本阴极催化剂，MoS2-MIL-101（Fe）在MEC中实现高效产氢和废物增值，同时显著降低催化剂成本，为绿色生物制氢提供可行途径。原摘要未说明长期稳定性及实际废水应用限制。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">3. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Visible light–triggered co-upcycling of polypropylene and polyethylene terephthalate using waste chlorinated solvents)</p>
+<p>👤 Yidan Cheng, Lingxiang Jiang, Zhao Wu, Haobing Wang</p>
+<p>📖 <strong>Nature Communications</strong> | IF: 16.6 | 中科院: 综合性期刊 1区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1038/s41467-026-77075-1" target="_blank" rel="noopener">10.1038/s41467-026-77075-1</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: waste valorization)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<h2 class="section-title">微藻</h2>
+<article class="paper">
+<h3 class="paper-title">4. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Circular biovalorization of tofu whey wastewater using cocultured microalgae for producing high value feed and nutrition fortified laying hen products)</p>
+<p>👤 Yulong Zhang, Liwei Liu, Mengdan Luo, Liwen Luo, Rong Zhou, Shaohua Li, Yufang Tang, Yuqin Li, Zhenyao Wang, Xuan Li</p>
+<p>📖 <strong>Bioresource Technology</strong> | IF: 11.4 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.biortech.2026.135650" target="_blank" rel="noopener">10.1016/j.biortech.2026.135650</a></p>
+<p>🎯 相关性得分: 10/78 (标题: microalgae; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">5. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Metabolic redirection and capacity expansion in heterotroph-reinforced microalgae-methanotroph systems under high ammonia stress)</p>
+<p>👤 Yong‐Ze Lu, Jia-Sen Yang, Xin-Ya Tan, Yi-Ru Wang, Hong-Yin Sha, Hao-Yu Wang, Shao-Jie Zong, Guangcan Zhu</p>
+<p>📖 <strong>Bioresource Technology</strong> | IF: 11.4 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.biortech.2026.135676" target="_blank" rel="noopener">10.1016/j.biortech.2026.135676</a></p>
+<p>🎯 相关性得分: 10/78 (标题: microalgae; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<h2 class="section-title">生物炭</h2>
+<article class="paper">
+<h3 class="paper-title">6. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Fenton sludge-derived biochar for enhancing constructed wetland-microbial fuel cell system performance: Mechanisms and comprehensive evaluation)</p>
+<p>👤 Jiawen Zhang, Tao Wang, Ping Xia, Chuqiao Wang, Caihua Liu, Peng Zhan, Xiaoming Peng</p>
+<p>📖 <strong>Bioresource Technology</strong> | IF: 11.4 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.biortech.2026.135636" target="_blank" rel="noopener">10.1016/j.biortech.2026.135636</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">7. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Predicting methane production in biochar-assisted anaerobic digestion using random forest and SHAP analysis of multi-study experimental data)</p>
+<p>👤 Luis F. Huaraca, Cristina E. Almeida-Naranjo, Paul Sarango-Lalangui</p>
+<p>📖 <strong>Bioresource Technology</strong> | IF: 11.4 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.biortech.2026.135652" target="_blank" rel="noopener">10.1016/j.biortech.2026.135652</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">8. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Insight into peroxymonosulfate activation by biochar-derived dissolved organic matter toward in-situ sustainable groundwater remediation: The role of active functional groups and efficient electron shuttles)</p>
+<p>👤 Xinling Ye, Chenxi Wang, Qin Shi, Chuanqi Zhao, Honghui Pan, Yan Liu, Xixiang Liu</p>
+<p>📖 <strong>Journal of Cleaner Production</strong> | IF: 11.1 | 中科院: 工程技术 1区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.jclepro.2026.149239" target="_blank" rel="noopener">10.1016/j.jclepro.2026.149239</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">9. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Flash Joule heating biochar for enhanced biodrying and carbon upgrading of food waste digestate)</p>
+<p>👤 Mingyue Xu, Bao Yu, Xingkun Xu, Jinpeng Xiong, Chi Zhang, Jiahao Liang, Zhentong Wang, Qunhui Wang, Bing Deng, Jianguo Liu</p>
+<p>📖 <strong>Journal of Cleaner Production</strong> | IF: 11.1 | 中科院: 工程技术 1区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.jclepro.2026.149249" target="_blank" rel="noopener">10.1016/j.jclepro.2026.149249</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">10. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Advances and challenges of biochar-supported nanoscale zero-valent iron in anaerobic digestion for methane production: A comprehensive review)</p>
+<p>👤 Zhang-Wei He, Zi-Qi Liu, Cong-Cong Tang, Qian Li, Ai-Juan Zhou, Wenzong Liu, Zhiling Li, Yong-Xiang Ren, Ai-Jie Wang, Rong Chen</p>
+<p>📖 <strong>Renewable and Sustainable Energy Reviews</strong> | IF: 16.3 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.rser.2026.117420" target="_blank" rel="noopener">10.1016/j.rser.2026.117420</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<h2 class="section-title">生物精炼</h2>
+<article class="paper">
+<h3 class="paper-title">11. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Biorefinery-Induced Structural Evolution and Electrochemical Performance of Chaetomorpha antennina -Derived Activated Carbon for Supercapacitors)</p>
+<p>👤 Amir Humayun, Anbu Chezhiyan Elango, Mugesh Sankaranarayanan, Kandasamy Prabakar</p>
+<p>📖 <strong>Energy &amp; Fuels</strong> | IF: 6.0 | 中科院: 工程技术 3区（2025升级版）</p>
+<p>📚 小类分区: 工程：化工 3区；能源与燃料 3区/4区（来源注明随年份浮动）</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1021/acs.energyfuels.6c01400" target="_blank" rel="noopener">10.1021/acs.energyfuels.6c01400</a></p>
+<p>🎯 相关性得分: 13/78 (标题: biorefinery; 摘要: biorefinery)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：探究生物精炼处理（酸热水解提取糖分）对Chaetomorpha antennina海藻衍生活性炭结构演变及超级电容器电化学性能的影响，明确保留天然生物质结构对碳材料性能的关键作用。</p>
+<p><strong>研究方法</strong>：以完整Chaetomorpha antennina生物质（CA-W）和经酸热水解提取糖分后的残渣（CA-R）为前驱体制备活性炭。通过对比两种碳材料的结构特征与电化学性能，采用对称全电池超级电容器测试，在3 M Na2SO4水溶液和EDMPA–TFSI离子液体电解液中，于1 A g–1电流密度下评估性能，总活性物质质量为11 mg，器件总质量为624 mg。</p>
+<p><strong>关键结果</strong>：CA-W保留了天然多糖骨架，具有更优的sp2碳域组织、有序乱层石墨碳、分级孔结构及更多含氧官能团。CA-R因酸热水解破坏生物有机结构，碳结构无序、孔隙率降低，电化学性能较差。CA-W对称全电池在3 M Na2SO4中比电容为184 F g–1，在EDMPA–TFSI离子液体中为525 F g–1（基于双电极总活性质量11 mg计算）。基于器件总质量624 mg，比电容为9.25 F g–1，在功率密度5.76 W kg–1时能量密度为0.84 Wh kg–1，归因于更宽的电化学稳定窗口。</p>
+<p><strong>主要结论</strong>：生物精炼过程中保留天然生物质架构对制备结构有序、电化学性能优异的多孔碳至关重要。本研究为可持续生物质衍生超级电容器电极的理性设计提供了重要见解，但原摘要未说明长期循环稳定性及实际应用中的成本效益分析。</p>
+</article>
+    </main>
+    <footer>Literature Radar · 自动生成的每周文献档案</footer>
+  </body>
+</html>
