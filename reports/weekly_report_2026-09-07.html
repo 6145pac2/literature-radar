@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="文献雷达第 5 期，共 19 篇论文">
+    <title>文献雷达第 5 期 · 2026-09-07</title>
+    <style>
+:root {
+  color-scheme: light;
+  --ink: #18332d;
+  --muted: #60736e;
+  --brand: #147d64;
+  --brand-dark: #0c5c4a;
+  --accent: #d7a848;
+  --line: #dce7e2;
+  --surface: rgba(255, 255, 255, 0.92);
+  --shadow: 0 18px 50px rgba(24, 51, 45, 0.10);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 0%, rgba(20, 125, 100, 0.12), transparent 32rem),
+    linear-gradient(180deg, #f8fbf9 0%, #eef4f1 100%);
+  font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+a { color: inherit; }
+.container { width: min(1080px, calc(100% - 40px)); margin: 0 auto; }
+.hero { padding: 72px 0 38px; }
+.eyebrow {
+  color: var(--brand);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+h1 { margin: 8px 0 12px; font-size: clamp(2rem, 6vw, 3.8rem); line-height: 1.15; }
+.subtitle { max-width: 680px; color: var(--muted); font-size: 1.05rem; }
+.stats { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.stat {
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--muted);
+}
+.stat strong { color: var(--ink); }
+.report-grid { display: grid; gap: 18px; padding: 10px 0 72px; }
+.report-card {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.7fr) 1fr auto;
+  gap: 24px;
+  align-items: center;
+  padding: 25px 28px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: 0 8px 24px rgba(24, 51, 45, 0.06);
+  text-decoration: none;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+.report-card:hover, .report-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: rgba(20, 125, 100, 0.45);
+  box-shadow: var(--shadow);
+  outline: none;
+}
+.card-date { font-size: 1.3rem; font-weight: 800; }
+.card-meta { display: flex; flex-wrap: wrap; gap: 10px; color: var(--muted); }
+.card-meta span { padding: 4px 10px; border-radius: 999px; background: #edf6f2; }
+.arrow { color: var(--brand); font-weight: 800; white-space: nowrap; }
+.empty { padding: 48px; border: 1px dashed var(--line); border-radius: 20px; text-align: center; color: var(--muted); }
+.topbar { padding: 22px 0; border-bottom: 1px solid var(--line); background: rgba(248, 251, 249, 0.82); }
+.back-link { color: var(--brand-dark); font-weight: 750; text-decoration: none; }
+.report-shell { padding: 48px 0 80px; }
+.report-header, .paper {
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: 0 8px 28px rgba(24, 51, 45, 0.06);
+}
+.report-header { padding: clamp(24px, 5vw, 44px); margin-bottom: 32px; }
+.report-header h1 { font-size: clamp(1.8rem, 5vw, 3rem); }
+.issue-badge { display: inline-block; padding: 5px 12px; border-radius: 999px; background: #e4f3ed; color: var(--brand-dark); font-weight: 800; }
+.report-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.report-meta span { padding: 7px 12px; border-radius: 10px; background: #f0f5f2; color: var(--muted); }
+.section-title { margin: 38px 0 16px; font-size: 1.45rem; }
+.section-title::before { content: ""; display: inline-block; width: 5px; height: 1.05em; margin-right: 10px; border-radius: 3px; background: var(--accent); vertical-align: -0.12em; }
+.paper { padding: clamp(20px, 4vw, 30px); margin-bottom: 16px; }
+.paper-title { margin: 0 0 12px; font-size: 1.12rem; font-weight: 800; line-height: 1.5; }
+.paper p { margin: 7px 0; color: #405650; }
+.paper .original-title { color: var(--muted); font-style: italic; }
+.paper .summary { margin-top: 14px; padding: 15px 17px; border-left: 4px solid var(--brand); border-radius: 0 12px 12px 0; background: #edf6f2; color: var(--ink); }
+.paper a { color: var(--brand-dark); overflow-wrap: anywhere; }
+footer { padding: 28px 0 48px; color: var(--muted); text-align: center; font-size: 0.9rem; }
+@media (max-width: 700px) {
+  .container { width: min(100% - 24px, 1080px); }
+  .hero { padding-top: 44px; }
+  .report-card { grid-template-columns: 1fr; gap: 10px; padding: 21px; }
+  .arrow { justify-self: start; }
+}
+</style>
+  </head>
+  <body>
+    <nav class="topbar"><div class="container"><a class="back-link" href="../index.html">← 返回历史周报</a></div></nav>
+    <main class="container report-shell">
+      <header class="report-header">
+        <span class="issue-badge">第 5 期 · 共 19 篇</span>
+        <h1>文献雷达周报</h1>
+        <div class="card-date">2026-09-07</div>
+        <div class="report-meta"><span>日期范围：2026-08-31 至 2026-09-07（左闭右开）</span><span>论文总数：19</span><span>主题关键词：hydrothermal liquefaction、biocrude、waste valorization、microalgae、biochar、biorefinery</span><span>排除关键词：medical、building structure</span><span>相关性评分：标题每命中1个主题词 +10分，摘要每命中1个主题词 +3分；本期共6个主题词，理论总分78分</span><span>检索时间：2026-09-07T14:35:32+08:00</span></div>
+      </header>
+      <h2 class="section-title">废弃物资源化</h2>
+<article class="paper">
+<h3 class="paper-title">1. 通过可扩展熔盐辅助碳化将废弃 PET 升级改造为高性能二氧化碳吸附剂</h3>
+<p class="original-title">(Upcycling Waste PET into High-Performance CO2 Adsorbents via Scalable Molten Salt-Assisted Carbonization)</p>
+<p>👤 Zhiyong Huang, Jinsong Chen, Yan Zhang, Shanshan Wang, Han Lin, Xiaohua Lü, Rui Tu, Tae H. Ji, Jiahua Zhu</p>
+<p>📖 <strong>Industrial &amp; Engineering Chemistry Research</strong> | IF: 3.9 | 中科院: 工程技术 3区（2025升级版）</p>
+<p>📚 小类分区: 工程：化工 3区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1021/acs.iecr.6c03243" target="_blank" rel="noopener">10.1021/acs.iecr.6c03243</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: waste valorization)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<h2 class="section-title">微藻</h2>
+<article class="paper">
+<h3 class="paper-title">2. 分阶段二氧化碳-空气再生减轻了微藻化学循环重整中的再生权衡</h3>
+<p class="original-title">(Staged CO2–Air Regeneration Mitigates the Regeneration Tradeoff in Microalgae Chemical Looping Reforming)</p>
+<p>👤 Huili Huang, Zhongshun Sun, Bolun Yang, Chen Song, Zhiqiang Wu</p>
+<p>📖 <strong>Industrial &amp; Engineering Chemistry Research</strong> | IF: 3.9 | 中科院: 工程技术 3区（2025升级版）</p>
+<p>📚 小类分区: 工程：化工 3区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1021/acs.iecr.6c02732" target="_blank" rel="noopener">10.1021/acs.iecr.6c02732</a></p>
+<p>🎯 相关性得分: 13/78 (标题: microalgae; 摘要: microalgae)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：探究微藻化学链重整过程中氧载体在真实生物质衍生条件下的再生性能，并开发一种分阶段CO₂-空气再生策略，以缓解碳消除、晶格氧补充和结构保持之间的再生权衡问题。</p>
+<p><strong>研究方法</strong>：使用NiFe₂O₄@SBA-15作为氧载体，在真实微藻衍生条件下进行再生实验。比较了单气氛（CO₂、空气等）再生效果，并设计了分阶段CO₂-空气再生策略。采用多尺度表征技术，特别是穆斯堡尔谱，分析再生过程中碳去除、铁再氧化和尖晶石结构重建的机制。以H₂氧化还原循环作为基准对照。</p>
+<p><strong>关键结果</strong>：与基准H₂氧化还原循环相比，真实微藻重整后再生效率从约75%降至55%。在单气氛条件下，CO₂表现出最佳综合再生性能，因其促进碳去除同时抑制烧结并保持介孔结构。分阶段CO₂-空气再生策略将再生效率进一步提高至约70%。穆斯堡尔谱显示，CO₂步骤主要诱导碳去除和部分铁再氧化，而后续空气步骤实现近乎完全的晶格氧补充和NiFe₂O₄尖晶石重建。</p>
+<p><strong>主要结论</strong>：将脱碳与深度再氧化在时间上分离是氧化还原氧载体再生的有效设计原则。分阶段CO₂-空气再生策略能显著缓解再生权衡，提高微藻化学链重整中氧载体的再生效率，为实际生物质转化应用提供了可行的再生方案。原摘要未说明该策略的经济成本或长期循环稳定性数据。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">3. 低氯预处理使微藻能够减少牲畜废水中的多目标污染物：通过宿主-群落转变关注 ARG 衰减</h3>
+<p class="original-title">(Low–chlorine pretreatment enables microalgae to reduce multi–target pollutants in livestock wastewater: Focus on ARG attenuation via host–community shifts)</p>
+<p>👤 Xiaoyu Xu, Yuang Cao, Suli Zhi, Jiahua Liu, Cheryl Cordeiro, Erik Sindhøj, Han Wang, Keqiang Zhang</p>
+<p>📖 <strong>Bioresource Technology</strong> | IF: 11.4 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.biortech.2026.135750" target="_blank" rel="noopener">10.1016/j.biortech.2026.135750</a></p>
+<p>🎯 相关性得分: 10/78 (标题: microalgae; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">4. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Deep learning-enabled real-time acoustofluidic sorting for selective microalgae recovery under wastewater-relevant heterogeneous conditions)</p>
+<p>👤 Zihan Li, Xian Jiang, Wenzhe Gong, Aoyang Tang, Yan Ma, Xia Du, Yaping Xie, Tielin Shi, Zhiyong Liu, Guanglan Liao, Lei Nie</p>
+<p>📖 <strong>Bioresource Technology</strong> | IF: 11.4 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.biortech.2026.135751" target="_blank" rel="noopener">10.1016/j.biortech.2026.135751</a></p>
+<p>🎯 相关性得分: 10/78 (标题: microalgae; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">5. 1.5kWth机组钛铁矿、低密度渣和铁砂微藻化学链气化实验研究</h3>
+<p class="original-title">(Experimental study of microalgae chemical looping gasification with ilmenite, LD slag and iron sand in a 1.5 kWth unit)</p>
+<p>👤 Hantao Lu, Daofeng Mei, Francisco Garcı́a-Labiano, Juan Ignacio Ruiz Irizar, Maria Teresa Izquierdo, Alberto Abad, Guangsuo Yu</p>
+<p>📖 <strong>Chemical Engineering Journal</strong> | IF: 15.1 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.cej.2026.181521" target="_blank" rel="noopener">10.1016/j.cej.2026.181521</a></p>
+<p>🎯 相关性得分: 10/78 (标题: microalgae; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<h2 class="section-title">生物炭</h2>
+<article class="paper">
+<h3 class="paper-title">6. 微生物负荷、碳利用潜力和固定效率因生物炭类型而异：对生物接种剂配方的影响</h3>
+<p class="original-title">(Microbial load, carbon utilization potential, and immobilization efficiency vary across biochar types: implications for bioinoculant formulation)</p>
+<p>👤 Rashmi S. Dhanwar, Adarsh K. Singh, Munira Alateeqi, Rupali S. Thakur, Sanyogita Berde, Gaurav Nahar, Tushar D. Lodha, Andrew B. Ross, Ashvini Chauhan, Om Prakash</p>
+<p>📖 <strong>Frontiers in Microbiology</strong> | IF: 5.8（2025 JIF） | 中科院: 生物学 2区（2025升级版）</p>
+<p>📚 小类分区: 微生物学 3区；Top状态未提供</p>
+<p>🔗 DOI: <a href="https://doi.org/10.3389/fmicb.2026.1869658" target="_blank" rel="noopener">10.3389/fmicb.2026.1869658</a></p>
+<p>🎯 相关性得分: 13/78 (标题: biochar; 摘要: biochar)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：评估不同生物炭类型作为微生物生物接种剂载体及稳定厌氧消化过程的适用性，重点考察其天然微生物负载、碳利用潜力及微生物固定效率，以指导生物炭在生物接种剂配方中的合理选择。</p>
+<p><strong>研究方法</strong>：分析英国生物炭研究中心提供的六种生物炭样品。对每种生物炭进行天然及可回收可培养微生物负载计数；以大肠杆菌为模式生物评估促生长潜力；利用革兰氏阳性和阴性菌株评价微生物固定能力；采用扫描电子显微镜验证固定特性。所有固定实验均进行统计学检验。</p>
+<p><strong>关键结果</strong>：六种生物炭在相似储存条件下天然微生物负载存在显著差异。所有生物炭均不能作为大肠杆菌ATCC 25922的碳源或能源，但部分生物炭可延缓细菌死亡，显示可能的存活保持效应。固定能力因生物炭类型而异，受生物质来源和热解温度影响。所有生物炭对两种测试菌株的固定均具有统计学显著性（P&lt;0.05）。扫描电镜确认了微生物附着及表面特征的差异。</p>
+<p><strong>主要结论</strong>：生物炭支持微生物生长和固定的潜力随生产参数及生物质类型而变化。在用于生物接种剂配方或其他应用前，必须仔细评估生物炭与目标微生物菌株之间的相容性，以确保最佳性能和稳定性。原摘要未说明具体数值、单位及实验局限性。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">7. 生物炭改良剂对轻度镉污染水稻土酶活性、微生物量和细菌群落的影响</h3>
+<p class="original-title">(Effects of biochar-based amendments on enzyme activity, microbial biomass, and bacterial communities in mildly cadmium-contaminated paddy soils)</p>
+<p>👤 Junnan Han, Haining Yang, Baowen Huang, Yuan Shi, Wei Peng, Wenjing Zeng, Jian Wang, Donghai Wu, Aike Zhu</p>
+<p>📖 <strong>Frontiers in Microbiology</strong> | IF: 5.8（2025 JIF） | 中科院: 生物学 2区（2025升级版）</p>
+<p>📚 小类分区: 微生物学 3区；Top状态未提供</p>
+<p>🔗 DOI: <a href="https://doi.org/10.3389/fmicb.2026.1923798" target="_blank" rel="noopener">10.3389/fmicb.2026.1923798</a></p>
+<p>🎯 相关性得分: 13/78 (标题: biochar; 摘要: biochar)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：探究复合生物炭改良剂对轻度镉污染稻田土壤酶活性、微生物生物量及细菌群落结构的影响，验证由生物炭、油菜有机肥、钙镁磷肥和黄腐酸组成的复合改良剂能优化土壤微环境、降低镉有效性并稳定细菌群落多样性的假设，为西南地区轻度镉污染稻田安全利用提供理论依据。</p>
+<p><strong>研究方法</strong>：在稻油轮作田间条件下，将玉米秸秆生物炭、竹生物炭和椰壳活性炭三种材料分别与油菜有机肥、钙镁磷肥和黄腐酸按比例混合制成三种复合改良剂，以不施改良剂为对照，测定土壤酶活性、微生物生物量碳氮磷及细菌群落组成。</p>
+<p><strong>关键结果</strong>：复合改良剂显著提高脲酶活性19.95%–42.09%（p&lt;0.05），但降低酸性磷酸酶活性；蔗糖酶、硝酸还原酶和纤维素酶活性无显著变化。微生物生物量碳和氮分别显著增加30.10%–64.16%和12.07%–123.68%（p&lt;0.05）；玉米秸秆和竹生物炭改良剂显著增加微生物生物量磷，而椰壳活性炭降低之。细菌Chao 1和Shannon指数均高于对照。优势菌门为变形菌门、绿弯菌门、酸杆菌门和放线菌门；变形菌门和放线菌门相对丰度略增，酸杆菌门降低；玉米秸秆和竹生物炭富集绿弯菌门，椰壳活性炭抑制之。属水平上，硫杆菌属相对丰度显著增加。</p>
+<p><strong>主要结论</strong>：复合生物炭改良剂可提升稻田土壤质量，促进细菌群落丰富度和多样性，补充了该技术的微生态机制，为轻度镉污染稻田安全利用提供技术支持。原摘要未说明具体施用量及试验周期。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">8. 低温碱改性木质素生物炭增强 Pb2+ 去除：结构调控和潜在机制</h3>
+<p class="original-title">(Low-temperature alkali-modified lignin-derived biochar for enhanced Pb2+ removal: Structural regulation and underlying mechanisms)</p>
+<p>👤 Xuyang Deng, Bingying Ni, Xiaoyu Pei, Xian Li, Meishan Fan, Jun Xie</p>
+<p>📖 <strong>Biochemical Engineering Journal</strong> | IF: 3.8 | 中科院: 生物学 3区（2025升级版）</p>
+<p>📚 小类分区: 生物工程与应用微生物 3区；工程：化工 3区；部分旧版大类为工程技术 3区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.bej.2026.110387" target="_blank" rel="noopener">10.1016/j.bej.2026.110387</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">9. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Suitable particle-size biochar enhances resilience of potato production and soil environmental to irregular precipitation in semiarid region)</p>
+<p>👤 Zhaoyang Li, Nan Shi, Zhimin Yang, Yubo Cao, Shimeng Fan, Musawer Abbas, Weixing Shan, Ansabayeva Assiya, Zhikuan Jia, Enke Liu, Kadambot H. M. Siddique, Ruixia Ding, Yuling Meng, Zihan Liu, Jiangang Liu, Peng Zhang</p>
+<p>📖 <strong>Bioresource Technology</strong> | IF: 11.4 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.biortech.2026.135763" target="_blank" rel="noopener">10.1016/j.biortech.2026.135763</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">10. 木质素在衍生生物炭催化剂上异位催化热解为可持续航空燃料的典型成分：单一过渡金属对芳香烃生成的影响</h3>
+<p class="original-title">(Ex-situ catalytic pyrolysis of lignin over derived biochar catalysts into the typical components of sustainable aviation fuels: Effects of single transition metals on aromatic hydrocarbon generation)</p>
+<p>👤 Xingping Kai, Hanjie Zhang, Tao Zhang, Tianhua Yang, Lesheng Wang, Jiaxing Xu, Bingshuo Li, Rundong Li</p>
+<p>📖 <strong>Fuel</strong> | IF: 7.5 | 中科院: 工程技术 2区 Top（2025升级版）</p>
+<p>📚 小类分区: 能源与燃料 2区；工程：化工 2区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.fuel.2026.140918" target="_blank" rel="noopener">10.1016/j.fuel.2026.140918</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">11. 用于逆水煤气变换反应的发酵残渣衍生的生物炭：提高CO选择性并能够直接使用未纯化的生物氢生产合成燃料</h3>
+<p class="original-title">(Fermented residue derived biochar for reverse water gas shift reaction: boosting CO selectivity and enabling direct use of unpurified biohydrogen for synthetic fuel production)</p>
+<p>👤 Muhammad Sarwar Khan, Fuke Ai, Quanguo Zhang, Wang Xin, Haiyan Xu, Haitao Wu, Zhiping Zhang</p>
+<p>📖 <strong>Fuel</strong> | IF: 7.5 | 中科院: 工程技术 2区 Top（2025升级版）</p>
+<p>📚 小类分区: 能源与燃料 2区；工程：化工 2区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.fuel.2026.141134" target="_blank" rel="noopener">10.1016/j.fuel.2026.141134</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">12. 固废生物炭：在温和的氨溶液中增强 CO2 吸收、抑制 NH3 逃逸和节能的有效添加剂</h3>
+<p class="original-title">(Solid waste-derived biochar: An effective additive for enhancing CO2 absorption, suppressing NH3 slip, and saving energy in mild-temperature ammonia solutions)</p>
+<p>👤 Yu Pan, Longjie Yu, Jiahui Lei, Zehuang Zhang, Jianlong Jin, Qunxing Huang</p>
+<p>📖 <strong>Journal of Cleaner Production</strong> | IF: 11.1 | 中科院: 工程技术 1区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.jclepro.2026.149320" target="_blank" rel="noopener">10.1016/j.jclepro.2026.149320</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">13. 生物炭在园艺基质中替代泥炭、石灰和肥料的化学生物学适用性</h3>
+<p class="original-title">(Chemical-biological suitability of biochar for peat, lime and fertilizer replacement in horticultural substrates)</p>
+<p>👤 Bart Vandecasteele, S. Craeye, Kristof Gheysens, P. Melis, Hanne Denaeghel, Krzysztof Kuśnierek, Rianne Visser, Dries Vandamme</p>
+<p>📖 <strong>Journal of Cleaner Production</strong> | IF: 11.1 | 中科院: 工程技术 1区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.jclepro.2026.149362" target="_blank" rel="noopener">10.1016/j.jclepro.2026.149362</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">14. 污泥衍生的生物炭活化的过一硫酸盐作为废物资源化预处理，用于可持续的膜污染控制：吸附-氧化相互作用和热力学见解</h3>
+<p class="original-title">(Sludge-derived biochar-activated peroxymonosulfate as a waste-to-resource pretreatment for sustainable membrane fouling control: Adsorption-oxidation interplay and thermodynamic insights)</p>
+<p>👤 Mingjing Xie, Biyan Wang, Jiaqi Liu, Xiao Xu, Hanmin Zhang, Meijia Zhang, Xiang Cai, Leihong Zhao, Bisheng Li, Liguo Shen, Jiaheng Teng, Hongjun Lin</p>
+<p>📖 <strong>Journal of Cleaner Production</strong> | IF: 11.1 | 中科院: 工程技术 1区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.jclepro.2026.149385" target="_blank" rel="noopener">10.1016/j.jclepro.2026.149385</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">15. 高固体厌氧膜生物反应器作为循环有机流增值的工艺强化平台：从膜规模工艺到系统规模可持续性</h3>
+<p class="original-title">(High-solids anaerobic membrane bioreactors as process-intensified platforms for circular organic-stream valorization: From membrane-scale processes to system-scale sustainability)</p>
+<p>👤 Guangze Guo, Susanne Lackner, Jules B. van Lier, İrini Angelidaki, Yujie Chen, Yu-You Li, Konrad Koch</p>
+<p>📖 <strong>Renewable and Sustainable Energy Reviews</strong> | IF: 16.3 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.rser.2026.117466" target="_blank" rel="noopener">10.1016/j.rser.2026.117466</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: biochar)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">16. 生物质气热炭化工艺生产高炉喷吹燃料：能耗-经济性-碳排放模型及参数影响研究</h3>
+<p class="original-title">(Biomass Gas-Thermal Carbonization Process for Producing Blast Furnace Injection Fuel: Energy Consumption–Economy–Carbon Emission Model and Parameter Influence Research)</p>
+<p>👤 Jianliang Zhang, Jinyin Zhang, Johannes Schenk, Dawei Lan, Xiaoxia He, Runsheng Xu, Charles Chunbao Xu</p>
+<p>📖 <strong>Energy &amp; Fuels</strong> | IF: 6.0 | 中科院: 工程技术 3区（2025升级版）</p>
+<p>📚 小类分区: 工程：化工 3区；能源与燃料 3区/4区（来源注明随年份浮动）</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1021/acs.energyfuels.6c02940" target="_blank" rel="noopener">10.1021/acs.energyfuels.6c02940</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: biochar)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<h2 class="section-title">生物精炼</h2>
+<article class="paper">
+<h3 class="paper-title">17. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Resource efficient multi-product biorefinery development using brewers’ spent grains - Mechanistic insights of a semi-pilot plasma microbubble reactor)</p>
+<p>👤 Evanthia Georgiadou, Olga Psaki, Dimitrios Ladakis, P.J. Cullen, George E. Baltatzis, Apostolis Koutinas, Katiana Filippi</p>
+<p>📖 <strong>Biochemical Engineering Journal</strong> | IF: 3.8 | 中科院: 生物学 3区（2025升级版）</p>
+<p>📚 小类分区: 生物工程与应用微生物 3区；工程：化工 3区；部分旧版大类为工程技术 3区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.bej.2026.110399" target="_blank" rel="noopener">10.1016/j.bej.2026.110399</a></p>
+<p>🎯 相关性得分: 13/78 (标题: biorefinery; 摘要: biorefinery)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：探究利用非热空气等离子体（NTP）处理啤酒糟（BSG），以实现可发酵糖的序贯回收及蛋白质、油脂和木质素的分级分离，并评估其在半中试规模反应器中构建多产品生物精炼厂的资源效率与可持续性。</p>
+<p><strong>研究方法</strong>：将BSG置于非热空气等离子体处理中，在等离子体活化水（PAW）生产过程中，随反应器体积扩大至12 L调整处理时长和占空比等反应条件。通过选择性清除活性物种实验，分析葡萄糖和半纤维素转化的主要驱动因子。比较富氧进料气体与常规气体对多糖转化效率的影响。在12 L半中试等离子体鼓泡反应器中进行BSG预处理，所得水解液用于Paraburkholderia sacchari补料分批发酵生产PHB。同时设置碱预处理对照组，并基于可再生电力进行生命周期可持续性评估。</p>
+<p><strong>关键结果</strong>：选择性清除实验表明，•OH和H₂O₂是驱动葡聚糖和半纤维素转化的主要活性物种。富氧气体显著增强多糖向糖的转化效率。12 L反应器预处理后，葡聚糖和半纤维素的总糖转化率分别达94.6%和49.6%。发酵生产PHB浓度达59.8 g/L，产率为0.28 g/g消耗糖，生产速率为1.79 g/(L·h)。每1500 g BSG可产206.5 g粗蛋白水解物、225 g PHB、93.5 g油脂和103 g粗木质素。与碱预处理相比，NTP处理的糖和PHB产量分别提高67.3%和67.2%。可持续性评估显示，使用可再生电力时全球变暖潜势为0.97 kg CO₂-eq/kg PHB，化石资源耗竭为9.28 MJ/kg PHB，较碱处理降低57.5%。</p>
+<p><strong>主要结论</strong>：NTP预处理在12 L规模下于常温、无化学试剂条件下运行，资源效率优于传统高温化学预处理。该技术可实现BSG多产品分级利用，显著提升糖和PHB产量，并大幅降低环境影响，为啤酒糟的高值化生物精炼提供了绿色可行路径。原摘要未说明NTP处理的具体能耗数值及反应器放大至更大体积时的性能变化。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">18. Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+<p class="original-title">(Integrated glycerol biorefinery: volatile fatty acid platform for polyhydroxyalkanoates production under feast/famine operation)</p>
+<p>👤 Agnes Adam Duarte Pinheiro, Edilberto Mariano da Silva, Bruna Scandolara Magnus, Federico Battısta, Lourdinha Florêncio, Wanderli Rogério Moreira Leite</p>
+<p>📖 <strong>Bioresource Technology</strong> | IF: 11.4 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.biortech.2026.135754" target="_blank" rel="noopener">10.1016/j.biortech.2026.135754</a></p>
+<p>🎯 相关性得分: 13/78 (标题: biorefinery; 摘要: biorefinery)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：本研究旨在评估好氧（第一阶段）和厌氧（第二阶段）进料策略对序批式反应器中聚羟基脂肪酸酯积累的影响，并探讨如何通过协调上游酸发酵与下游进料策略，提升以甘油为底物的生物炼制系统中碳转化效率。</p>
+<p><strong>研究方法</strong>：实验采用甘油进料的产酸反应器，在4天和8天水力停留时间下运行，产生发酵液作为序批式反应器的进料。序批式反应器分别在好氧和厌氧条件下进行饱食/饥饿操作，监测挥发性脂肪酸产量、代谢产物分布及聚羟基脂肪酸酯积累速率和产率，并比较不同阶段的性能。</p>
+<p><strong>关键结果</strong>：将产酸反应器的水力停留时间从4天延长至8天，使挥发性脂肪酸产量增至3167 mg COD/L（提高21%），同时减少残余甘油，代谢谱从以乙酸和丁酸为主转变为以丁酸和己酸为主。在饱食/饥饿序批式反应器运行中，厌氧进料（第二阶段）下聚羟基脂肪酸酯积累更快，2小时后达10.0 mg PHA/L，高于好氧进料（第一阶段）的7.5 mg PHA/L。第二阶段还实现了59.77 mg PHA/L/h的体积产率，以及0.37 g PHA/g VFA和0.64 g PHA/g甘油的特异性产率，优于第一阶段的0.28和0.20 g/g。尽管中链羧酸浓度较高未相应增加下游聚合物积累，但进料操作策略是性能的主要决定因素。</p>
+<p><strong>主要结论</strong>：将厌氧进料与延长水力停留时间相结合，可提高甘油底物的碳转化产率，为上游酸发酵与下游聚羟基脂肪酸酯生产的耦合概念提供了实验支持，但原摘要未说明具体限制条件。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">19. 基于机器学习的植物生长调节剂和过度补偿的集成提高了废水中微藻蛋白的产量</h3>
+<p class="original-title">(Machine learning-based integration of plant growth regulators and overcompensation enhances microalgal protein production from wastewater)</p>
+<p>👤 Gang Li, Jue Gong, Wenbo Xiao, Weihong Zhang, Zhigang Huang, Xiaolong Yao, Yang Yang, Nathalie Gontard, Tao Lyu, Minmin Pan</p>
+<p>📖 <strong>Journal of Cleaner Production</strong> | IF: 11.1 | 中科院: 工程技术 1区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.jclepro.2026.149382" target="_blank" rel="noopener">10.1016/j.jclepro.2026.149382</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: biorefinery)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+    </main>
+    <footer>Literature Radar · 自动生成的每周文献档案</footer>
+  </body>
+</html>
