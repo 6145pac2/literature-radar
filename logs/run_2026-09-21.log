@@ -1,0 +1,119 @@
+2026-09-21 14:58:11 [INFO] Starting literature run for [2026-09-14, 2026-09-21)
+2026-09-21 14:58:11 [INFO] Querying OpenAlex: Nature page 1
+2026-09-21 14:58:12 [INFO] Querying OpenAlex: Nature page 2
+2026-09-21 14:58:13 [INFO] Retrieved 85 dated works from Nature
+2026-09-21 14:58:13 [INFO] Querying OpenAlex: Nature Energy page 1
+2026-09-21 14:58:13 [INFO] Retrieved 6 dated works from Nature Energy
+2026-09-21 14:58:13 [INFO] Querying OpenAlex: Nature Catalysis page 1
+2026-09-21 14:58:13 [INFO] Retrieved 1 dated works from Nature Catalysis
+2026-09-21 14:58:13 [INFO] Querying OpenAlex: Nature Sustainability page 1
+2026-09-21 14:58:14 [INFO] Retrieved 3 dated works from Nature Sustainability
+2026-09-21 14:58:14 [INFO] Querying OpenAlex: Nature Materials page 1
+2026-09-21 14:58:14 [INFO] Retrieved 4 dated works from Nature Materials
+2026-09-21 14:58:14 [INFO] Querying OpenAlex: Nature Nanotechnology page 1
+2026-09-21 14:58:14 [INFO] Retrieved 6 dated works from Nature Nanotechnology
+2026-09-21 14:58:14 [INFO] Querying OpenAlex: Nature Chemistry page 1
+2026-09-21 14:58:15 [INFO] Retrieved 4 dated works from Nature Chemistry
+2026-09-21 14:58:15 [INFO] Querying OpenAlex: Nature Chemical Biology page 1
+2026-09-21 14:58:15 [INFO] Retrieved 8 dated works from Nature Chemical Biology
+2026-09-21 14:58:15 [INFO] Querying OpenAlex: Nature Communications page 1
+2026-09-21 14:58:16 [INFO] Querying OpenAlex: Nature Communications page 2
+2026-09-21 14:58:17 [INFO] Querying OpenAlex: Nature Communications page 3
+2026-09-21 14:58:18 [INFO] Querying OpenAlex: Nature Communications page 4
+2026-09-21 14:58:19 [INFO] Querying OpenAlex: Nature Communications page 5
+2026-09-21 14:58:19 [INFO] Retrieved 204 dated works from Nature Communications
+2026-09-21 14:58:19 [INFO] Querying OpenAlex: Nature Plants page 1
+2026-09-21 14:58:20 [INFO] Retrieved 13 dated works from Nature Plants
+2026-09-21 14:58:20 [INFO] Querying OpenAlex: Nature Reviews Clean Technology page 1
+2026-09-21 14:58:20 [INFO] Retrieved 0 dated works from Nature Reviews Clean Technology
+2026-09-21 14:58:20 [INFO] Querying OpenAlex: Nature Water page 1
+2026-09-21 14:58:20 [INFO] Retrieved 4 dated works from Nature Water
+2026-09-21 14:58:20 [INFO] Querying OpenAlex: Science page 1
+2026-09-21 14:58:21 [INFO] Retrieved 37 dated works from Science
+2026-09-21 14:58:21 [INFO] Querying OpenAlex: Science Advances page 1
+2026-09-21 14:58:23 [INFO] Querying OpenAlex: Science Advances page 2
+2026-09-21 14:58:23 [INFO] Retrieved 93 dated works from Science Advances
+2026-09-21 14:58:23 [INFO] Querying OpenAlex: Science Translational Medicine page 1
+2026-09-21 14:58:24 [INFO] Retrieved 5 dated works from Science Translational Medicine
+2026-09-21 14:58:24 [INFO] Querying OpenAlex: Cell page 1
+2026-09-21 14:58:24 [INFO] Retrieved 0 dated works from Cell
+2026-09-21 14:58:24 [INFO] Querying OpenAlex: Joule page 1
+2026-09-21 14:58:24 [INFO] Retrieved 0 dated works from Joule
+2026-09-21 14:58:24 [INFO] Querying OpenAlex: Chem page 1
+2026-09-21 14:58:25 [INFO] Retrieved 0 dated works from Chem
+2026-09-21 14:58:25 [INFO] Querying OpenAlex: Chem Catalysis page 1
+2026-09-21 14:58:25 [INFO] Retrieved 0 dated works from Chem Catalysis
+2026-09-21 14:58:25 [INFO] Querying OpenAlex: Matter page 1
+2026-09-21 14:58:25 [INFO] Retrieved 0 dated works from Matter
+2026-09-21 14:58:25 [INFO] Querying OpenAlex: One Earth page 1
+2026-09-21 14:58:25 [INFO] Retrieved 0 dated works from One Earth
+2026-09-21 14:58:25 [INFO] Querying OpenAlex: Renewable and Sustainable Energy Reviews page 1
+2026-09-21 14:58:26 [INFO] Retrieved 18 dated works from Renewable and Sustainable Energy Reviews
+2026-09-21 14:58:26 [INFO] Querying OpenAlex: Chemical Engineering Journal page 1
+2026-09-21 14:58:27 [INFO] Querying OpenAlex: Chemical Engineering Journal page 2
+2026-09-21 14:58:28 [INFO] Querying OpenAlex: Chemical Engineering Journal page 3
+2026-09-21 14:58:28 [INFO] Retrieved 104 dated works from Chemical Engineering Journal
+2026-09-21 14:58:28 [INFO] Querying OpenAlex: Bioresource Technology page 1
+2026-09-21 14:58:29 [INFO] Retrieved 14 dated works from Bioresource Technology
+2026-09-21 14:58:29 [INFO] Querying OpenAlex: Journal of Cleaner Production page 1
+2026-09-21 14:58:30 [INFO] Querying OpenAlex: Journal of Cleaner Production page 2
+2026-09-21 14:58:31 [INFO] Retrieved 53 dated works from Journal of Cleaner Production
+2026-09-21 14:58:31 [INFO] Querying OpenAlex: Energy page 1
+2026-09-21 14:58:31 [INFO] Retrieved 15 dated works from Energy
+2026-09-21 14:58:31 [INFO] Querying OpenAlex: Fuel page 1
+2026-09-21 14:58:32 [INFO] Querying OpenAlex: Fuel page 2
+2026-09-21 14:58:33 [INFO] Retrieved 62 dated works from Fuel
+2026-09-21 14:58:33 [INFO] Querying OpenAlex: Chemosphere page 1
+2026-09-21 14:58:33 [INFO] Retrieved 6 dated works from Chemosphere
+2026-09-21 14:58:33 [INFO] Querying OpenAlex: Industrial & Engineering Chemistry Research page 1
+2026-09-21 14:58:34 [INFO] Retrieved 49 dated works from Industrial & Engineering Chemistry Research
+2026-09-21 14:58:34 [INFO] Querying OpenAlex: Energy & Fuels page 1
+2026-09-21 14:58:35 [INFO] Retrieved 32 dated works from Energy & Fuels
+2026-09-21 14:58:35 [INFO] Querying OpenAlex: Applied Energy page 1
+2026-09-21 14:58:35 [INFO] Retrieved 36 dated works from Applied Energy
+2026-09-21 14:58:35 [INFO] Querying OpenAlex: Green Chemistry page 1
+2026-09-21 14:58:36 [INFO] Retrieved 0 dated works from Green Chemistry
+2026-09-21 14:58:36 [INFO] Querying OpenAlex: International Journal of Hydrogen Energy page 1
+2026-09-21 14:58:37 [INFO] Querying OpenAlex: International Journal of Hydrogen Energy page 2
+2026-09-21 14:58:37 [INFO] Retrieved 80 dated works from International Journal of Hydrogen Energy
+2026-09-21 14:58:37 [INFO] Querying OpenAlex: International Journal of Agricultural and Biological Engineering page 1
+2026-09-21 14:58:38 [INFO] Retrieved 0 dated works from International Journal of Agricultural and Biological Engineering
+2026-09-21 14:58:38 [INFO] Querying OpenAlex: 农业工程学报 page 1
+2026-09-21 14:58:38 [INFO] Retrieved 0 dated works from 农业工程学报
+2026-09-21 14:58:38 [INFO] Querying OpenAlex: Biochemical Engineering Journal page 1
+2026-09-21 14:58:38 [INFO] Retrieved 3 dated works from Biochemical Engineering Journal
+2026-09-21 14:58:38 [INFO] Querying OpenAlex: Frontiers in Microbiology page 1
+2026-09-21 14:58:39 [INFO] Querying OpenAlex: Frontiers in Microbiology page 2
+2026-09-21 14:58:40 [INFO] Retrieved 76 dated works from Frontiers in Microbiology
+2026-09-21 14:58:40 [INFO] Keyword filtering retained 15 of 1021 works
+2026-09-21 14:58:40 [INFO] Historical deduplication retained 15 new papers
+2026-09-21 14:58:40 [INFO] History persisted before report delivery
+2026-09-21 14:58:41 [WARNING] Title translation failed for Selective methane-to-methanol conversion in a biochar-mediated photocatalytic biohybrid system: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:41 [WARNING] Title translation failed for H2O-gasification direct carbon solid oxide fuel cells utilizing biochar as fuel for high-performance electricity generation: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:42 [WARNING] Title translation failed for Tolerance and bioaccumulation mechanisms of the microalgae Scenedesmus obliquus to beryllium ions: Insights from physiological and transcriptomic responses: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:42 [WARNING] Title translation failed for Rose petal biochar induces oxygen vacancies in Bi2MoO6 for efficient photocatalytic Cr(VI) reduction and degradation of hydrochloride tetracycline: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:43 [WARNING] Title translation failed for Biochar cathodes for power-to-protein: a circular approach for anaerobic digestion side-product valorisation: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:44 [WARNING] Title translation failed for Process Modeling and Techno-Environmental Assessment of Lignin Hydrothermal Liquefaction to Aromatics and Sustainable Aviation Fuel: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:44 [WARNING] Title translation failed for Biochar mitigates dimethylarsenate-stimulated methane emissions mediated by DOM-microbe interactions in paddy soils: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:44 [WARNING] Title translation failed for From insect biodegradation to microbial upcycling: A closed-loop framework for plastic waste valorization: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:45 [WARNING] Title translation failed for Toward net-zero co-pyrolysis: Sustainable composite catalyst design for waste valorization and cleaner energy recovery: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:45 [WARNING] Title translation failed for Pilot-scale validation of FCC equilibrium catalyst rejuvenation using PVC as an in situ HCl source: an integrated waste valorization strategy: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:46 [WARNING] Title translation failed for Environmental and carbon footprint performance of biochar-augmented concrete: A cradle-to-gate life cycle assessment: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:46 [WARNING] Title translation failed for Optimization of biogas purification using anaerobic digestion of algae under ultrasonic pretreatment: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:47 [WARNING] Title translation failed for Circular carbon materials from organic waste: Life cycle comparison with fossil-derived carbon: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:47 [WARNING] Title translation failed for Hydrodynamic cavitation-enabled process intensification for sustainable renewable energy production: Advances and perspectives: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:48 [WARNING] Title translation failed for Dietary records in cosmopolitan copepod Calanus spp. revealed large contribution of dinoflagellates in subarctic Pacific: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-21 14:58:51 [WARNING] Summary quality check requested one rewrite: Selective methane-to-methanol conversion in a biochar-mediated photocatalytic biohybrid system
+2026-09-21 14:58:53 [INFO] Generated summary: Selective methane-to-methanol conversion in a biochar-mediated photocatalytic biohybrid system
+2026-09-21 14:58:56 [INFO] Generated summary: H2O-gasification direct carbon solid oxide fuel cells utilizing biochar as fuel for high-performance electricity generation
+2026-09-21 14:58:58 [INFO] Generated summary: Tolerance and bioaccumulation mechanisms of the microalgae Scenedesmus obliquus to beryllium ions: Insights from physiological and transcriptomic responses
+2026-09-21 14:59:02 [INFO] Generated summary: Rose petal biochar induces oxygen vacancies in Bi2MoO6 for efficient photocatalytic Cr(VI) reduction and degradation of hydrochloride tetracycline
+2026-09-21 14:59:05 [INFO] Generated summary: Biochar cathodes for power-to-protein: a circular approach for anaerobic digestion side-product valorisation
+2026-09-21 14:59:08 [INFO] Generated summary: Process Modeling and Techno-Environmental Assessment of Lignin Hydrothermal Liquefaction to Aromatics and Sustainable Aviation Fuel
+2026-09-21 14:59:11 [INFO] Generated summary: Biochar mitigates dimethylarsenate-stimulated methane emissions mediated by DOM-microbe interactions in paddy soils
+2026-09-21 14:59:11 [WARNING] Skipping summary without abstract: From insect biodegradation to microbial upcycling: A closed-loop framework for plastic waste valorization
+2026-09-21 14:59:11 [WARNING] Skipping summary without abstract: Toward net-zero co-pyrolysis: Sustainable composite catalyst design for waste valorization and cleaner energy recovery
+2026-09-21 14:59:15 [INFO] Generated summary: Pilot-scale validation of FCC equilibrium catalyst rejuvenation using PVC as an in situ HCl source: an integrated waste valorization strategy
+2026-09-21 14:59:15 [INFO] Generated report and rebuilt archive index: /home/runner/work/literature-radar/literature-radar/reports/weekly_report_2026-09-21.md
+2026-09-21 14:59:18 [INFO] Email sent successfully
+2026-09-21 14:59:18 [INFO] Run completed; GitHub Actions will commit generated files
