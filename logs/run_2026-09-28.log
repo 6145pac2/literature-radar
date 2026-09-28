@@ -1,0 +1,122 @@
+2026-09-28 15:30:18 [INFO] Starting literature run for [2026-09-21, 2026-09-28)
+2026-09-28 15:30:18 [INFO] Querying OpenAlex: Nature page 1
+2026-09-28 15:30:19 [INFO] Querying OpenAlex: Nature page 2
+2026-09-28 15:30:20 [INFO] Retrieved 93 dated works from Nature
+2026-09-28 15:30:20 [INFO] Querying OpenAlex: Nature Energy page 1
+2026-09-28 15:30:20 [INFO] Retrieved 2 dated works from Nature Energy
+2026-09-28 15:30:20 [INFO] Querying OpenAlex: Nature Catalysis page 1
+2026-09-28 15:30:20 [INFO] Retrieved 4 dated works from Nature Catalysis
+2026-09-28 15:30:20 [INFO] Querying OpenAlex: Nature Sustainability page 1
+2026-09-28 15:30:21 [INFO] Retrieved 4 dated works from Nature Sustainability
+2026-09-28 15:30:21 [INFO] Querying OpenAlex: Nature Materials page 1
+2026-09-28 15:30:21 [INFO] Retrieved 10 dated works from Nature Materials
+2026-09-28 15:30:21 [INFO] Querying OpenAlex: Nature Nanotechnology page 1
+2026-09-28 15:30:21 [INFO] Retrieved 0 dated works from Nature Nanotechnology
+2026-09-28 15:30:21 [INFO] Querying OpenAlex: Nature Chemistry page 1
+2026-09-28 15:30:22 [INFO] Retrieved 11 dated works from Nature Chemistry
+2026-09-28 15:30:22 [INFO] Querying OpenAlex: Nature Chemical Biology page 1
+2026-09-28 15:30:22 [INFO] Retrieved 3 dated works from Nature Chemical Biology
+2026-09-28 15:30:22 [INFO] Querying OpenAlex: Nature Communications page 1
+2026-09-28 15:30:23 [INFO] Querying OpenAlex: Nature Communications page 2
+2026-09-28 15:30:24 [INFO] Querying OpenAlex: Nature Communications page 3
+2026-09-28 15:30:25 [INFO] Querying OpenAlex: Nature Communications page 4
+2026-09-28 15:30:26 [INFO] Querying OpenAlex: Nature Communications page 5
+2026-09-28 15:30:26 [INFO] Retrieved 209 dated works from Nature Communications
+2026-09-28 15:30:26 [INFO] Querying OpenAlex: Nature Plants page 1
+2026-09-28 15:30:26 [INFO] Retrieved 3 dated works from Nature Plants
+2026-09-28 15:30:26 [INFO] Querying OpenAlex: Nature Reviews Clean Technology page 1
+2026-09-28 15:30:27 [INFO] Retrieved 0 dated works from Nature Reviews Clean Technology
+2026-09-28 15:30:27 [INFO] Querying OpenAlex: Nature Water page 1
+2026-09-28 15:30:27 [INFO] Retrieved 5 dated works from Nature Water
+2026-09-28 15:30:27 [INFO] Querying OpenAlex: Science page 1
+2026-09-28 15:30:28 [INFO] Retrieved 44 dated works from Science
+2026-09-28 15:30:28 [INFO] Querying OpenAlex: Science Advances page 1
+2026-09-28 15:30:28 [INFO] Querying OpenAlex: Science Advances page 2
+2026-09-28 15:30:29 [INFO] Retrieved 91 dated works from Science Advances
+2026-09-28 15:30:29 [INFO] Querying OpenAlex: Science Translational Medicine page 1
+2026-09-28 15:30:30 [INFO] Retrieved 7 dated works from Science Translational Medicine
+2026-09-28 15:30:30 [INFO] Querying OpenAlex: Cell page 1
+2026-09-28 15:30:30 [INFO] Retrieved 0 dated works from Cell
+2026-09-28 15:30:30 [INFO] Querying OpenAlex: Joule page 1
+2026-09-28 15:30:31 [INFO] Retrieved 0 dated works from Joule
+2026-09-28 15:30:31 [INFO] Querying OpenAlex: Chem page 1
+2026-09-28 15:30:31 [INFO] Retrieved 0 dated works from Chem
+2026-09-28 15:30:31 [INFO] Querying OpenAlex: Chem Catalysis page 1
+2026-09-28 15:30:31 [INFO] Retrieved 0 dated works from Chem Catalysis
+2026-09-28 15:30:31 [INFO] Querying OpenAlex: Matter page 1
+2026-09-28 15:30:32 [INFO] Retrieved 0 dated works from Matter
+2026-09-28 15:30:32 [INFO] Querying OpenAlex: One Earth page 1
+2026-09-28 15:30:32 [INFO] Retrieved 0 dated works from One Earth
+2026-09-28 15:30:32 [INFO] Querying OpenAlex: Renewable and Sustainable Energy Reviews page 1
+2026-09-28 15:30:33 [INFO] Retrieved 22 dated works from Renewable and Sustainable Energy Reviews
+2026-09-28 15:30:33 [INFO] Querying OpenAlex: Chemical Engineering Journal page 1
+2026-09-28 15:30:33 [INFO] Querying OpenAlex: Chemical Engineering Journal page 2
+2026-09-28 15:30:34 [INFO] Retrieved 58 dated works from Chemical Engineering Journal
+2026-09-28 15:30:34 [INFO] Querying OpenAlex: Bioresource Technology page 1
+2026-09-28 15:30:34 [INFO] Retrieved 9 dated works from Bioresource Technology
+2026-09-28 15:30:34 [INFO] Querying OpenAlex: Journal of Cleaner Production page 1
+2026-09-28 15:30:35 [INFO] Retrieved 48 dated works from Journal of Cleaner Production
+2026-09-28 15:30:35 [INFO] Querying OpenAlex: Energy page 1
+2026-09-28 15:30:35 [INFO] Retrieved 26 dated works from Energy
+2026-09-28 15:30:35 [INFO] Querying OpenAlex: Fuel page 1
+2026-09-28 15:30:36 [INFO] Querying OpenAlex: Fuel page 2
+2026-09-28 15:30:37 [INFO] Retrieved 81 dated works from Fuel
+2026-09-28 15:30:37 [INFO] Querying OpenAlex: Chemosphere page 1
+2026-09-28 15:30:38 [INFO] Retrieved 3 dated works from Chemosphere
+2026-09-28 15:30:38 [INFO] Querying OpenAlex: Industrial & Engineering Chemistry Research page 1
+2026-09-28 15:30:38 [INFO] Retrieved 38 dated works from Industrial & Engineering Chemistry Research
+2026-09-28 15:30:38 [INFO] Querying OpenAlex: Energy & Fuels page 1
+2026-09-28 15:30:39 [INFO] Retrieved 27 dated works from Energy & Fuels
+2026-09-28 15:30:39 [INFO] Querying OpenAlex: Applied Energy page 1
+2026-09-28 15:30:40 [INFO] Querying OpenAlex: Applied Energy page 2
+2026-09-28 15:30:40 [INFO] Retrieved 52 dated works from Applied Energy
+2026-09-28 15:30:40 [INFO] Querying OpenAlex: Green Chemistry page 1
+2026-09-28 15:30:41 [INFO] Retrieved 0 dated works from Green Chemistry
+2026-09-28 15:30:41 [INFO] Querying OpenAlex: International Journal of Hydrogen Energy page 1
+2026-09-28 15:30:42 [INFO] Querying OpenAlex: International Journal of Hydrogen Energy page 2
+2026-09-28 15:30:42 [INFO] Querying OpenAlex: International Journal of Hydrogen Energy page 3
+2026-09-28 15:30:43 [INFO] Retrieved 120 dated works from International Journal of Hydrogen Energy
+2026-09-28 15:30:43 [INFO] Querying OpenAlex: International Journal of Agricultural and Biological Engineering page 1
+2026-09-28 15:30:43 [INFO] Retrieved 0 dated works from International Journal of Agricultural and Biological Engineering
+2026-09-28 15:30:43 [INFO] Querying OpenAlex: 农业工程学报 page 1
+2026-09-28 15:30:44 [INFO] Retrieved 0 dated works from 农业工程学报
+2026-09-28 15:30:44 [INFO] Querying OpenAlex: Biochemical Engineering Journal page 1
+2026-09-28 15:30:44 [INFO] Retrieved 1 dated works from Biochemical Engineering Journal
+2026-09-28 15:30:44 [INFO] Querying OpenAlex: Frontiers in Microbiology page 1
+2026-09-28 15:30:46 [INFO] Querying OpenAlex: Frontiers in Microbiology page 2
+2026-09-28 15:30:46 [INFO] Retrieved 99 dated works from Frontiers in Microbiology
+2026-09-28 15:30:47 [INFO] Keyword filtering retained 19 of 1070 works
+2026-09-28 15:30:47 [INFO] Historical deduplication retained 19 new papers
+2026-09-28 15:30:47 [INFO] History persisted before report delivery
+2026-09-28 15:30:47 [WARNING] Title translation failed for Flash Joule heating-driven bamboo pyrolysis for nitrogen-doped porous biochar: Process regulation and non-equilibrium synergistic mechanism: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:48 [WARNING] Title translation failed for Waste-to-value: Spent coffee grounds derived Ni-decorated porous biochar for efficient plasma-catalytic ammonia synthesis: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:48 [WARNING] Title translation failed for Greenhouse gas and economic assessments of biochar-based composite panels from forest residues: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:49 [WARNING] Title translation failed for A remote sensing–GIS decision-support framework for mapping woody biochar potential and logistics-constrained application suitability on degraded rural land: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:49 [WARNING] Title translation failed for Distinct material traits shape soil-dependent N2O responses to Fe-, Ca- and Se-modified biochars: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:50 [WARNING] Title translation failed for Biochar-based sustained coenzyme delivery for enhanced petroleum hydrocarbon biodegradation: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:50 [WARNING] Title translation failed for A novel biorefinery approach for flaxseed oil and protein co-production using bio-based solvents: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:51 [WARNING] Title translation failed for Size dependence of Ni/biochar catalyst derived from chicken manure for CO2 methanation: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:51 [WARNING] Title translation failed for Redox-active coordination catalysts for selective thermochemical valorization of biowaste: Mechanistic insights and structure-performance relationships: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:52 [WARNING] Title translation failed for Valorization of excess sludge into catalysts for mediating direct electron transfer pathways toward refractory organic pollutants degradation: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:52 [WARNING] Title translation failed for Biorefining of whole cotton plant residues for bioethanol production with greenhouse gas emission reduction and social carbon benefits: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:53 [WARNING] Title translation failed for Valorization of spent fermentation broth for enhanced photo-fermentative hydrogen production: Biochemical responses and preliminary economic and environmental screening: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:54 [WARNING] Title translation failed for Novel and efficient removal of impurities from spent silicon contact mass via an in situ copper-catalyzed leaching process: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:54 [WARNING] Title translation failed for Co-processing of bio-oils and petroleum feedstocks: The role of catalyst synthesis routes in mitigating catalytic challenges of co-processing: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:55 [WARNING] Title translation failed for Techno-Economic Analysis and Life-Cycle Assessment of Biomass Pyrolysis to Levoglucosan, Phenolic Resins, Acetic Acid, and Char: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:55 [WARNING] Title translation failed for Aqueous lignin adhesive for high-performance wood bonding: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:56 [WARNING] Title translation failed for Single-season responses of rhizosphere fungal community structure and diversity to combined application of different organic materials in potato: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:56 [WARNING] Title translation failed for Surface bio-erosion and structural alteration of colored and agricultural plastics induced by Scenedesmus dimorphus and Chlorella vulgaris: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:30:57 [WARNING] Title translation failed for Editorial: Unveiling the potential of beneficial microbes and their metabolites: a comprehensive approach to plant health: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-09-28 15:31:00 [INFO] Generated summary: Flash Joule heating-driven bamboo pyrolysis for nitrogen-doped porous biochar: Process regulation and non-equilibrium synergistic mechanism
+2026-09-28 15:31:03 [INFO] Generated summary: Waste-to-value: Spent coffee grounds derived Ni-decorated porous biochar for efficient plasma-catalytic ammonia synthesis
+2026-09-28 15:31:06 [INFO] Generated summary: Greenhouse gas and economic assessments of biochar-based composite panels from forest residues
+2026-09-28 15:31:09 [INFO] Generated summary: A remote sensing–GIS decision-support framework for mapping woody biochar potential and logistics-constrained application suitability on degraded rural land
+2026-09-28 15:31:11 [INFO] Generated summary: Distinct material traits shape soil-dependent N2O responses to Fe-, Ca- and Se-modified biochars
+2026-09-28 15:31:11 [WARNING] Skipping summary without abstract: Biochar-based sustained coenzyme delivery for enhanced petroleum hydrocarbon biodegradation
+2026-09-28 15:31:11 [WARNING] Skipping summary without abstract: A novel biorefinery approach for flaxseed oil and protein co-production using bio-based solvents
+2026-09-28 15:31:11 [WARNING] Skipping summary without abstract: Size dependence of Ni/biochar catalyst derived from chicken manure for CO2 methanation
+2026-09-28 15:31:14 [INFO] Generated summary: Redox-active coordination catalysts for selective thermochemical valorization of biowaste: Mechanistic insights and structure-performance relationships
+2026-09-28 15:31:17 [INFO] Generated summary: Valorization of excess sludge into catalysts for mediating direct electron transfer pathways toward refractory organic pollutants degradation
+2026-09-28 15:31:17 [INFO] Generated report and rebuilt archive index: /home/runner/work/literature-radar/literature-radar/reports/weekly_report_2026-09-28.md
+2026-09-28 15:31:21 [INFO] Email sent successfully
+2026-09-28 15:31:21 [INFO] Run completed; GitHub Actions will commit generated files

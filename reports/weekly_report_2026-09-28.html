@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="文献雷达第 8 期，共 19 篇论文">
+    <title>文献雷达第 8 期 · 2026-09-28</title>
+    <style>
+:root {
+  color-scheme: light;
+  --ink: #18332d;
+  --muted: #60736e;
+  --brand: #147d64;
+  --brand-dark: #0c5c4a;
+  --accent: #d7a848;
+  --line: #dce7e2;
+  --surface: rgba(255, 255, 255, 0.92);
+  --shadow: 0 18px 50px rgba(24, 51, 45, 0.10);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 0%, rgba(20, 125, 100, 0.12), transparent 32rem),
+    linear-gradient(180deg, #f8fbf9 0%, #eef4f1 100%);
+  font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+a { color: inherit; }
+.container { width: min(1080px, calc(100% - 40px)); margin: 0 auto; }
+.hero { padding: 72px 0 38px; }
+.eyebrow {
+  color: var(--brand);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+h1 { margin: 8px 0 12px; font-size: clamp(2rem, 6vw, 3.8rem); line-height: 1.15; }
+.subtitle { max-width: 680px; color: var(--muted); font-size: 1.05rem; }
+.stats { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.stat {
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--muted);
+}
+.stat strong { color: var(--ink); }
+.report-grid { display: grid; gap: 18px; padding: 10px 0 72px; }
+.report-card {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.7fr) 1fr auto;
+  gap: 24px;
+  align-items: center;
+  padding: 25px 28px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: 0 8px 24px rgba(24, 51, 45, 0.06);
+  text-decoration: none;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+.report-card:hover, .report-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: rgba(20, 125, 100, 0.45);
+  box-shadow: var(--shadow);
+  outline: none;
+}
+.card-date { font-size: 1.3rem; font-weight: 800; }
+.card-meta { display: flex; flex-wrap: wrap; gap: 10px; color: var(--muted); }
+.card-meta span { padding: 4px 10px; border-radius: 999px; background: #edf6f2; }
+.arrow { color: var(--brand); font-weight: 800; white-space: nowrap; }
+.empty { padding: 48px; border: 1px dashed var(--line); border-radius: 20px; text-align: center; color: var(--muted); }
+.topbar { padding: 22px 0; border-bottom: 1px solid var(--line); background: rgba(248, 251, 249, 0.82); }
+.back-link { color: var(--brand-dark); font-weight: 750; text-decoration: none; }
+.report-shell { padding: 48px 0 80px; }
+.report-header, .paper {
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: 0 8px 28px rgba(24, 51, 45, 0.06);
+}
+.report-header { padding: clamp(24px, 5vw, 44px); margin-bottom: 32px; }
+.report-header h1 { font-size: clamp(1.8rem, 5vw, 3rem); }
+.issue-badge { display: inline-block; padding: 5px 12px; border-radius: 999px; background: #e4f3ed; color: var(--brand-dark); font-weight: 800; }
+.report-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.report-meta span { padding: 7px 12px; border-radius: 10px; background: #f0f5f2; color: var(--muted); }
+.section-title { margin: 38px 0 16px; font-size: 1.45rem; }
+.section-title::before { content: ""; display: inline-block; width: 5px; height: 1.05em; margin-right: 10px; border-radius: 3px; background: var(--accent); vertical-align: -0.12em; }
+.paper { padding: clamp(20px, 4vw, 30px); margin-bottom: 16px; }
+.paper-title { margin: 0 0 12px; font-size: 1.12rem; font-weight: 800; line-height: 1.5; }
+.paper p { margin: 7px 0; color: #405650; }
+.paper .original-title { color: var(--muted); font-style: italic; }
+.paper .summary { margin-top: 14px; padding: 15px 17px; border-left: 4px solid var(--brand); border-radius: 0 12px 12px 0; background: #edf6f2; color: var(--ink); }
+.paper a { color: var(--brand-dark); overflow-wrap: anywhere; }
+footer { padding: 28px 0 48px; color: var(--muted); text-align: center; font-size: 0.9rem; }
+@media (max-width: 700px) {
+  .container { width: min(100% - 24px, 1080px); }
+  .hero { padding-top: 44px; }
+  .report-card { grid-template-columns: 1fr; gap: 10px; padding: 21px; }
+  .arrow { justify-self: start; }
+}
+</style>
+  </head>
+  <body>
+    <nav class="topbar"><div class="container"><a class="back-link" href="../index.html">← 返回历史周报</a></div></nav>
+    <main class="container report-shell">
+      <header class="report-header">
+        <span class="issue-badge">第 8 期 · 共 19 篇</span>
+        <h1>文献雷达周报</h1>
+        <div class="card-date">2026-09-28</div>
+        <div class="report-meta"><span>日期范围：2026-09-21 至 2026-09-28（左闭右开）</span><span>论文总数：19</span><span>主题关键词：hydrothermal liquefaction、biocrude、waste valorization、microalgae、biochar、biorefinery</span><span>排除关键词：medical、building structure</span><span>相关性评分：标题每命中1个主题词 +10分，摘要每命中1个主题词 +3分；本期共6个主题词，理论总分78分</span><span>检索时间：2026-09-28T15:30:18+08:00</span></div>
+      </header>
+      <h2 class="section-title">水热转化</h2>
+<article class="paper">
+<h3 class="paper-title">1. Redox-active coordination catalysts for selective thermochemical valorization of biowaste: Mechanistic insights and structure-performance relationships</h3>
+<p class="original-title">(Redox-active coordination catalysts for selective thermochemical valorization of biowaste: Mechanistic insights and structure-performance relationships)</p>
+<p>👤 Mahsa Mokhtarian, Krzysztof Pikoń, Balal Yousaf</p>
+<p>📖 <strong>Chemical Engineering Journal</strong> | IF: 15.1 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.cej.2026.180569" target="_blank" rel="noopener">10.1016/j.cej.2026.180569</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: hydrothermal liquefaction)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：本综述旨在整合生物废弃物催化增值的最新进展，重点探讨如何利用配位化学原理提升热化学转化中的反应选择性与能效，以应对可再生能源需求增长背景下将生物废弃物转化为高附加值燃料和化学品的挑战。原摘要未说明具体研究目标产物或量化指标。</p>
+<p><strong>研究方法</strong>：文章聚焦木质纤维素及其他有机残渣来源的生物废弃物，其富含碳和反应性官能团，可通过热解、气化和水热液化（HTL）等热化学途径转化。综述强调氧化还原活性金属配合物、沸石和金属有机框架在重整与芳构化过程中介导可控键活化和电子转移的能力，并将原料化学、预处理策略与催化机理相联结，建立结构-活性-选择性关系。原摘要未说明具体实验条件、对照设置或表征手段。</p>
+<p><strong>关键结果</strong>：生物废弃物的组成复杂性、高氧含量和无机杂质仍是高效转化与催化剂耐久性的主要障碍。氧化还原活性金属配合物、沸石和金属有机框架可调控键活化与电子转移，从而支撑合成气和芳烃生产。原摘要未给出转化率、选择性、产率或寿命等具体数值与单位。</p>
+<p><strong>主要结论</strong>：通过关联原料化学、预处理和催化机理，可建立支撑合成气与芳烃生产的结构-活性-选择性关系。AI引导的催化剂设计、与循环生物经济框架的整合以及双功能氧化还原系统，被视为通向可规模化、低碳和可持续能源技术的有前景路径。原摘要未说明技术经济评估或放大验证结果。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">2. Co-processing of bio-oils and petroleum feedstocks: The role of catalyst synthesis routes in mitigating catalytic challenges of co-processing</h3>
+<p class="original-title">(Co-processing of bio-oils and petroleum feedstocks: The role of catalyst synthesis routes in mitigating catalytic challenges of co-processing)</p>
+<p>👤 D.E. Adanenche</p>
+<p>📖 <strong>Renewable and Sustainable Energy Reviews</strong> | IF: 16.3 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.rser.2026.117545" target="_blank" rel="noopener">10.1016/j.rser.2026.117545</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: hydrothermal liquefaction)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<h2 class="section-title">废弃物资源化</h2>
+<article class="paper">
+<h3 class="paper-title">3. Biorefining of whole cotton plant residues for bioethanol production with greenhouse gas emission reduction and social carbon benefits</h3>
+<p class="original-title">(Biorefining of whole cotton plant residues for bioethanol production with greenhouse gas emission reduction and social carbon benefits)</p>
+<p>👤 Danial Salehi, Hamid Zilouei, Joeri F.M. Denayer, Oseweuba Valentine Okoro, Armin Shahvandi, Keikhosro Karimi</p>
+<p>📖 <strong>Fuel</strong> | IF: 7.5 | 中科院: 工程技术 2区 Top（2025升级版）</p>
+<p>📚 小类分区: 能源与燃料 2区；工程：化工 2区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.fuel.2026.141285" target="_blank" rel="noopener">10.1016/j.fuel.2026.141285</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: waste valorization)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">4. Novel and efficient removal of impurities from spent silicon contact mass via an in situ copper-catalyzed leaching process</h3>
+<p class="original-title">(Novel and efficient removal of impurities from spent silicon contact mass via an in situ copper-catalyzed leaching process)</p>
+<p>👤 Yi Li, Fengshuo Xi, Xiuhua Chen, Jijun Lu, Wenhui Ma, Jie Yu, Shaoyuan Li</p>
+<p>📖 <strong>Journal of Cleaner Production</strong> | IF: 11.1 | 中科院: 工程技术 1区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.jclepro.2026.149560" target="_blank" rel="noopener">10.1016/j.jclepro.2026.149560</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: waste valorization)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<h2 class="section-title">微藻</h2>
+<article class="paper">
+<h3 class="paper-title">5. Surface bio-erosion and structural alteration of colored and agricultural plastics induced by Scenedesmus dimorphus and Chlorella vulgaris</h3>
+<p class="original-title">(Surface bio-erosion and structural alteration of colored and agricultural plastics induced by Scenedesmus dimorphus and Chlorella vulgaris)</p>
+<p>👤 Aysu Besler, Ozlem Gurunlu Alma, Murat Can Sunar</p>
+<p>📖 <strong>Frontiers in Microbiology</strong> | IF: 5.8（2025 JIF） | 中科院: 生物学 2区（2025升级版）</p>
+<p>📚 小类分区: 微生物学 3区；Top状态未提供</p>
+<p>🔗 DOI: <a href="https://doi.org/10.3389/fmicb.2026.1934915" target="_blank" rel="noopener">10.3389/fmicb.2026.1934915</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: microalgae)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<h2 class="section-title">生物炭</h2>
+<article class="paper">
+<h3 class="paper-title">6. Flash Joule heating-driven bamboo pyrolysis for nitrogen-doped porous biochar: Process regulation and non-equilibrium synergistic mechanism</h3>
+<p class="original-title">(Flash Joule heating-driven bamboo pyrolysis for nitrogen-doped porous biochar: Process regulation and non-equilibrium synergistic mechanism)</p>
+<p>👤 Zijun Pan, Wei Chen, Mengyu He, Jiaqi Zhu, Jiatao Liu, Linqian Gao, Zhengyao Zhu, Xujie Zhao, Hanlin Jin, Xuxun Wang, Lujiang Xu, Shuai Gao, Zhen Fang, Haiping Yang</p>
+<p>📖 <strong>Energy</strong> | IF: 9.4 | 中科院: 工程技术 1区 Top（2025升级版）</p>
+<p>📚 小类分区: 热力学 1区；能源与燃料 2区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.energy.2026.142520" target="_blank" rel="noopener">10.1016/j.energy.2026.142520</a></p>
+<p>🎯 相关性得分: 13/78 (标题: biochar; 摘要: biochar)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：针对Flash Joule heating（FJH）这一新兴电气化热化学技术，原摘要指出其温度-时间历程如何在非平衡条件下调控固相与气相产率，并将孔隙发育与氮掺杂耦合，仍缺乏深入理解。本研究旨在将竹子热解、KOH活化与三聚氰胺原位氮掺杂集成为一步FJH过程，并阐明其非平衡协同机制。</p>
+<p><strong>研究方法</strong>：采用FJH一步耦合竹子热解、KOH活化与原位氮掺杂，考察热解温度和保温时间对产物分布的影响；结合实验与计算，利用电热模拟分析碳化过程中电流路径与加热行为，用XRD鉴定淬冷产物中主要含钾晶相，用热力学判断K2CO3还原条件，并用密度泛函理论计算K+在边缘型N位点的相互作用。原摘要未说明具体升温速率、KOH与三聚氰胺用量及对照组的详细设置。</p>
+<p><strong>关键结果</strong>：提高热解温度和延长保温时间会降低固体产率并提高气体产率，同时在数十秒内制得比表面积1429 m2 g−1、氮含量5.8 at.%的多孔N掺杂biochar及富H2/CO合成气。XRD表明KOCN是淬冷产物中主要含钾晶相，热力学显示高于1300 °C时有利于K2CO3还原；KOCN可能介导孔隙形成并在碳边缘位点锚定氮。超快加热抑制二次焦油缩聚，快速淬冷保留亚稳孔结构和边缘型吡啶N、吡咯N。密度泛函理论显示K+优先与边缘型N位点相互作用。在可再生电力和预测电力强度情景下，净GHG排放为4.10 kg CO2-eq kg−1原料，主要来自试剂。</p>
+<p><strong>主要结论</strong>：FJH驱动热解是一种快速、电气化过程，可调控固气产物分布，并联产N掺杂多孔biochar与富H2/CO气体，同时揭示了非平衡活化化学机制。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">7. Waste-to-value: Spent coffee grounds derived Ni-decorated porous biochar for efficient plasma-catalytic ammonia synthesis</h3>
+<p class="original-title">(Waste-to-value: Spent coffee grounds derived Ni-decorated porous biochar for efficient plasma-catalytic ammonia synthesis)</p>
+<p>👤 Juntao Bao, Feng Gong, Weiwei Fan, Rui Xiao, Kai Zhang, Zongqi Chen, Yun Xu, Ke Zhuang, Chunlei Zhang</p>
+<p>📖 <strong>International Journal of Hydrogen Energy</strong> | IF: 8.3 | 中科院: 材料科学 2区（2025升级版）</p>
+<p>📚 小类分区: 物理化学 2区；电化学 2区；能源与燃料 2区/3区（来源注明存在浮动）</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.ijhydene.2026.157779" target="_blank" rel="noopener">10.1016/j.ijhydene.2026.157779</a></p>
+<p>🎯 相关性得分: 13/78 (标题: biochar; 摘要: biochar)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：针对从集中式Haber–Bosch向分布式可再生氨合成转变的需求，开发兼具高活性与可再生兼容性的催化剂，并探索以废弃咖啡渣为原料制备Ni修饰多孔生物炭用于等离子体催化氨合成的可行性。</p>
+<p><strong>研究方法</strong>：以废弃咖啡渣为前驱体制备多孔生物炭载体，经Ni修饰得到Ni/HBC-2催化剂；对优化载体HBC-2进行比表面积与孔结构表征，并用XRD和XPS分析Ni物种形态。在DBD等离子体反应器中评价氨合成性能，考察最优SEI条件与温和条件下的NH3产率和能量产率，并进行50 h稳定性与25次循环稳定性测试；结合介电常数、电场强度、酸性位点数量与温度等参数开展机理研究。</p>
+<p><strong>关键结果</strong>：HBC-2具有分级微介孔结构，比表面积达2062 m² g⁻¹，Ni纳米颗粒均匀分散于碳载体上；XRD与XPS表明金属Ni与表面氧化Ni物种共存。在DBD等离子体反应器中，Ni/HBC-2在最优SEI下NH3产率达4473 μmol g⁻¹ h⁻¹，温和条件下为3400 μmol g⁻¹ h⁻¹，能量产率0.58 g-NH3·kWh⁻¹；50 h后活性保持90%，并具25次循环稳定性。机理上，高介电常数（εᵣ=30）使气隙电场由3.0增至16.3 kV mm⁻¹，增强电离；适度酸性位点（355 °C，0.28 mmol g⁻¹）促进NH3脱附并抑制分解。</p>
+<p><strong>主要结论</strong>：废弃咖啡渣衍生生物炭可作为高性能、低成本载体用于等离子体催化NH3合成，有助于分布式绿色氨生产；原摘要未说明该催化剂在工业放大、长期真实工况及经济性方面的具体限制。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">8. Greenhouse gas and economic assessments of biochar-based composite panels from forest residues</h3>
+<p class="original-title">(Greenhouse gas and economic assessments of biochar-based composite panels from forest residues)</p>
+<p>👤 Horacio A. Aguirre‐Villegas, Richard D. Bergman, Qiangu Yan, Cai Zhiyong, Prakash Nepal, Troy Michael Runge</p>
+<p>📖 <strong>Journal of Cleaner Production</strong> | IF: 11.1 | 中科院: 工程技术 1区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.jclepro.2026.149483" target="_blank" rel="noopener">10.1016/j.jclepro.2026.149483</a></p>
+<p>🎯 相关性得分: 13/78 (标题: biochar; 摘要: biochar)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：针对美国西部大规模山松甲虫暴发产生大量低价值森林残余物、增加野火风险且碳资源未充分利用的问题，本研究首次对生物炭基复合板材开展系统级评估，联合评价其生命周期温室气体（GHG）排放与技术经济表现，目标是将森林残余物转化为高价值生物炭产品以实现碳稳定和价值创造。原摘要未说明具体研究假设或政策目标。</p>
+<p><strong>研究方法</strong>：建模系统将使用便携式热解装置的分布式生物炭生产与集中式板材制造相结合，并采用kraft lignin作为可再生黏合剂。除代表常规生物炭-lignin复合板材生产的基准情景（BC）外，还模拟了五种替代情景，即板材在不同温度和加工条件下进行二次热解处理，以对应潜在吸附、结构或耐火应用。评估范围包括从摇篮到大门的GHG排放，并进行技术经济分析；同时设置基于假定长期生物炭稳定性的100年碳保留说明性情景。原摘要未说明实验验证、对照实验或具体数据来源。</p>
+<p><strong>关键结果</strong>：从摇篮到大门的GHG排放为311至565 kg CO2-eq/m3。在100年碳保留情景下，净GHG平衡为−343至−750 kg CO2-eq/m3。最低销售价格（MSP）为548至1101 US$/m3，具体取决于板材类型和加工条件。BC板材配置处于常规刨花板和中密度纤维板价格基准的较高端；热解板材配置的估计MSP处于或低于水修复和耐火复合材料应用中若干基准材料的价 格范围。原摘要未说明HTL或biocrude相关结果。</p>
+<p><strong>主要结论</strong>：生物炭基复合板材在工业规模上具有碳稳定和一定经济可行性，热解板材可能面向吸附、结构或耐火等较高价值应用。但价格比较仅提供市场背景，不构成功能等效或商业竞争力证明，仍需实验验证。原摘要未说明长期生物炭稳定性的实测数据或商业化限制。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">9. A remote sensing–GIS decision-support framework for mapping woody biochar potential and logistics-constrained application suitability on degraded rural land</h3>
+<p class="original-title">(A remote sensing–GIS decision-support framework for mapping woody biochar potential and logistics-constrained application suitability on degraded rural land)</p>
+<p>👤 Federica D’Acunto, Francesco Marinello, Filippo Iodice, Andrea Pezzuolo</p>
+<p>📖 <strong>Journal of Cleaner Production</strong> | IF: 11.1 | 中科院: 工程技术 1区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.jclepro.2026.149494" target="_blank" rel="noopener">10.1016/j.jclepro.2026.149494</a></p>
+<p>🎯 相关性得分: 13/78 (标题: biochar; 摘要: biochar)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：本研究旨在开发一个遥感–GIS决策支持框架，用于评估残余木质生物质 valorization 是否能够支持退化农村地区的恢复。具体目标包括估算意大利威尼托大区的生物质残余可用量、生物炭生产潜力，以及在退化农村土地上受物流约束的生物炭施用适宜性。原摘要未说明研究假设或具体政策目标。</p>
+<p><strong>研究方法</strong>：研究采用遥感与GIS相结合的决策支持框架，空间分析对象为意大利威尼托大区的退化农村土地。方法整合了生物质可用量估算、生物炭生产潜力计算、物流约束评估和土地恢复需求识别。原摘要未说明具体遥感数据来源、空间分辨率、GIS模型参数、控制组设置或统计分析方法。</p>
+<p><strong>关键结果</strong>：研究在威尼托大区识别出约169,200 ha退化农村土地。可用的残余生物质估计约为10.2 million t yr−1，对应理论生物炭生产潜力约为3.1 million t yr−1。然而，空间和物流约束强烈限制了有效部署，即使在最可行情景下，也仅约2%的退化土地得到处理。较低的生物炭施用率结合较短的运输距离可实现最大的领土覆盖范围。</p>
+<p><strong>主要结论</strong>：生物质丰度本身并不能决定恢复潜力；有效的生物炭部署取决于生物质供应、生产基础设施、运输可行性和恢复需求之间的空间匹配。该框架提供了一种可转移的方法，用于识别生物质 valorization 在现实中能够促进土地恢复的区域，并可将 circular bioeconomy 与恢复措施纳入区域规划。原摘要未说明长期监测结果或经济可行性分析。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">10. Distinct material traits shape soil-dependent N2O responses to Fe-, Ca- and Se-modified biochars</h3>
+<p class="original-title">(Distinct material traits shape soil-dependent N2O responses to Fe-, Ca- and Se-modified biochars)</p>
+<p>👤 Yuan Diao, Yinan Liu, Hanbing Li, Sumei Li, Xiaowei Wang, Sha Chen</p>
+<p>📖 <strong>Frontiers in Microbiology</strong> | IF: 5.8（2025 JIF） | 中科院: 生物学 2区（2025升级版）</p>
+<p>📚 小类分区: 微生物学 3区；Top状态未提供</p>
+<p>🔗 DOI: <a href="https://doi.org/10.3389/fmicb.2026.1972654" target="_blank" rel="noopener">10.3389/fmicb.2026.1972654</a></p>
+<p>🎯 相关性得分: 13/78 (标题: biochar; 摘要: biochar)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：本研究旨在明确Fe-、Ca-和Se-改性生物炭的材料特性如何影响其对土壤氧化亚氮（N2O）排放的调控作用，并揭示不同改性生物炭在黄土和黑土中产生差异效应的材料—土壤—微生物机制，为基于材料性状的改性生物炭土壤特异性筛选提供依据。原摘要未说明具体研究假设。</p>
+<p><strong>研究方法</strong>：以未改性生物炭为对照，比较Fe-、Ca-和Se-改性生物炭在黄土和黑土中的短期培养效果。采用材料表征与N2O通量测定相结合，同时监测土壤pH和无机氮动态，进行细菌群落分析，并通过qPCR定量nosZ、nirK和nirS基因。原摘要未说明培养温度、时间、生物炭添加量及重复数等具体实验条件。</p>
+<p><strong>关键结果</strong>：XPS、Raman和FTIR分析显示，各改性生物炭在表面元素组成、碳结构和官能团方面存在明显差异。FeBC在两种土壤中均持续降低累积N2O排放；SeBC在黄土中增加累积N2O排放；所有生物炭处理均降低黑土N2O排放。在测定的化学变量中，NH4+-N与累积N2O排放关联最密切，pH和NO3--N反映更广泛的氮转化环境。FeBC与细菌群落变化相关并对应较低N2O排放，CaBC则提高黄土中nosZ和nirS丰度。原摘要未说明具体数值和单位。</p>
+<p><strong>主要结论</strong>：Fe-、Ca-和Se-改性生物炭通过不同的材料—土壤—微生物途径调控N2O排放，其减排潜力受土壤背景强烈影响。研究结果为针对不同土壤筛选改性生物炭以减缓N2O排放提供了基于材料性状的依据。原摘要未说明长期田间适用性等局限。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">11. Biochar-based sustained coenzyme delivery for enhanced petroleum hydrocarbon biodegradation</h3>
+<p class="original-title">(Biochar-based sustained coenzyme delivery for enhanced petroleum hydrocarbon biodegradation)</p>
+<p>👤 Qiyou Liu, Kexin Fan, Yufeng Sun, Fei Wu, Yuhua Su, Yongdong Chen, Pu Wang</p>
+<p>📖 <strong>Bioresource Technology</strong> | IF: 11.4 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.biortech.2026.135915" target="_blank" rel="noopener">10.1016/j.biortech.2026.135915</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">12. Size dependence of Ni/biochar catalyst derived from chicken manure for CO2 methanation</h3>
+<p class="original-title">(Size dependence of Ni/biochar catalyst derived from chicken manure for CO2 methanation)</p>
+<p>👤 Feiyang Hu, Yifei Wang, Zhihong Tan, Wenxia Zhou, Tong Ju, Longmei Li, Lei Gong, Sibudjing Kawi</p>
+<p>📖 <strong>Fuel</strong> | IF: 7.5 | 中科院: 工程技术 2区 Top（2025升级版）</p>
+<p>📚 小类分区: 能源与燃料 2区；工程：化工 2区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.fuel.2026.141467" target="_blank" rel="noopener">10.1016/j.fuel.2026.141467</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">13. Valorization of excess sludge into catalysts for mediating direct electron transfer pathways toward refractory organic pollutants degradation</h3>
+<p class="original-title">(Valorization of excess sludge into catalysts for mediating direct electron transfer pathways toward refractory organic pollutants degradation)</p>
+<p>👤 Yake Zhang, Kaiyang Li, Zehua Li, Haisong Li, Yue Yin, Weiming Zhang</p>
+<p>📖 <strong>Chemical Engineering Journal</strong> | IF: 15.1 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.cej.2026.182193" target="_blank" rel="noopener">10.1016/j.cej.2026.182193</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: biochar)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：针对Fenton技术适用pH范围窄、易受共存离子干扰、难以深度去除实际废水中难降解有机污染物的问题，本研究提出将剩余污泥资源化转化为高性能N掺杂生物炭（NBC）催化剂，用于触发以直接电子转移路径（DETP）为主导的催化氧化体系，从而提升近中性高盐条件下难降解污染物的去除效果，并实现污泥与废水的协同治理。</p>
+<p><strong>研究方法</strong>：以剩余污泥为原料直接制备NBC，通过调控N掺杂构型并利用污泥中固有痕量金属，构建双位点协同催化界面；采用实验表征结合密度泛函理论计算验证DETP主导机制；提出具有差异化吸附位点的过一硫酸盐（PMS）氧化策略，其中Mg相关表面物种优先吸附双酚A（BPA），含石墨化N的碳区域优先与PMS作用以促进界面电子转移；并以全规模二级出水评估BOD5/COD变化，同时考察pH 3–9、100 mmol L−1阴离子及高盐近中性条件下的抗干扰性能，并测试不同来源污泥的适用性。</p>
+<p><strong>关键结果</strong>：NBC/PMS体系将全规模二级出水的BOD5/COD由0.22提高至0.57，超过0.30表明废水可生化性显著增强且催化性能稳健；该体系对100 mmol L−1阴离子保持优异抗干扰能力，在pH 3–9范围内活性稳定，并在高盐近中性条件下仍能高效去除污染物；表征与密度泛函理论计算共同证实DETP主导机制；所提催化剂制备方法对不同来源污泥具有潜在适用性。原摘要未说明具体污染物去除率、反应时间及催化剂用量等数值。</p>
+<p><strong>主要结论</strong>：该研究通过污泥资源化制备NBC并耦合PMS氧化，成功构建以DETP为主导的双位点协同催化体系，有效缓解了传统Fenton技术pH适用范围窄和高盐离子干扰问题，为近中性高盐废水深度处理提供了技术思路，也为污泥与废水的综合管理提供了可行途径。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">14. Techno-Economic Analysis and Life-Cycle Assessment of Biomass Pyrolysis to Levoglucosan, Phenolic Resins, Acetic Acid, and Char</h3>
+<p class="original-title">(Techno-Economic Analysis and Life-Cycle Assessment of Biomass Pyrolysis to Levoglucosan, Phenolic Resins, Acetic Acid, and Char)</p>
+<p>👤 Hong Tian, Linli Shang, Zhangjun Huang, Jun Xiong, Chen Hao, Tieyi Li</p>
+<p>📖 <strong>Energy &amp; Fuels</strong> | IF: 6.0 | 中科院: 工程技术 3区（2025升级版）</p>
+<p>📚 小类分区: 工程：化工 3区；能源与燃料 3区/4区（来源注明随年份浮动）</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1021/acs.energyfuels.6c02215" target="_blank" rel="noopener">10.1021/acs.energyfuels.6c02215</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: biochar)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">15. Single-season responses of rhizosphere fungal community structure and diversity to combined application of different organic materials in potato</h3>
+<p class="original-title">(Single-season responses of rhizosphere fungal community structure and diversity to combined application of different organic materials in potato)</p>
+<p>👤 Lianglu Hao, Xinyuan Hu, Bo Dong, Shiqian Guo, Dandan Du, 佳 李, Jian Wen</p>
+<p>📖 <strong>Frontiers in Microbiology</strong> | IF: 5.8（2025 JIF） | 中科院: 生物学 2区（2025升级版）</p>
+<p>📚 小类分区: 微生物学 3区；Top状态未提供</p>
+<p>🔗 DOI: <a href="https://doi.org/10.3389/fmicb.2026.1853956" target="_blank" rel="noopener">10.3389/fmicb.2026.1853956</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: biochar)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">16. Editorial: Unveiling the potential of beneficial microbes and their metabolites: a comprehensive approach to plant health</h3>
+<p class="original-title">(Editorial: Unveiling the potential of beneficial microbes and their metabolites: a comprehensive approach to plant health)</p>
+<p>👤 Yaqian Li, Yi Zhou, Yunpeng Chen, Bolin Zhang</p>
+<p>📖 <strong>Frontiers in Microbiology</strong> | IF: 5.8（2025 JIF） | 中科院: 生物学 2区（2025升级版）</p>
+<p>📚 小类分区: 微生物学 3区；Top状态未提供</p>
+<p>🔗 DOI: <a href="https://doi.org/10.3389/fmicb.2026.1994278" target="_blank" rel="noopener">10.3389/fmicb.2026.1994278</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: biochar)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<h2 class="section-title">生物精炼</h2>
+<article class="paper">
+<h3 class="paper-title">17. A novel biorefinery approach for flaxseed oil and protein co-production using bio-based solvents</h3>
+<p class="original-title">(A novel biorefinery approach for flaxseed oil and protein co-production using bio-based solvents)</p>
+<p>👤 Ying Feng, Yun Huang, Yong Wang, Ying Li</p>
+<p>📖 <strong>Bioresource Technology</strong> | IF: 11.4 | 中科院: 工程技术 1区 Top</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.biortech.2026.135923" target="_blank" rel="noopener">10.1016/j.biortech.2026.135923</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biorefinery; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">18. Valorization of spent fermentation broth for enhanced photo-fermentative hydrogen production: Biochemical responses and preliminary economic and environmental screening</h3>
+<p class="original-title">(Valorization of spent fermentation broth for enhanced photo-fermentative hydrogen production: Biochemical responses and preliminary economic and environmental screening)</p>
+<p>👤 Muhammad Shahzaib, Linze Li, Hongge Tao, Al Amin Mohamed Sultan, Chunyao Qing, Yi Wang</p>
+<p>📖 <strong>International Journal of Hydrogen Energy</strong> | IF: 8.3 | 中科院: 材料科学 2区（2025升级版）</p>
+<p>📚 小类分区: 物理化学 2区；电化学 2区；能源与燃料 2区/3区（来源注明存在浮动）</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.ijhydene.2026.157780" target="_blank" rel="noopener">10.1016/j.ijhydene.2026.157780</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: biorefinery)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">19. Aqueous lignin adhesive for high-performance wood bonding</h3>
+<p class="original-title">(Aqueous lignin adhesive for high-performance wood bonding)</p>
+<p>👤 Xin Zhou, Yu Wang, Songnan Hu, Rongxian Ou, Haisong Qi, Fachuang Lu, John Ralph, Fengxia Yue</p>
+<p>📖 <strong>Science Advances</strong> | IF: 13.9（2025 JIF） | 中科院: 综合性期刊 1区 Top（2025升级版）</p>
+<p>📚 小类分区: 综合性期刊（MULTIDISCIPLINARY SCIENCES）1区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1126/sciadv.aee5160" target="_blank" rel="noopener">10.1126/sciadv.aee5160</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: biorefinery)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+    </main>
+    <footer>Literature Radar · 自动生成的每周文献档案</footer>
+  </body>
+</html>
