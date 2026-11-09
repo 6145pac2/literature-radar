@@ -1,0 +1,96 @@
+2026-11-09 16:35:51 [INFO] Starting literature run for [2026-11-02, 2026-11-09)
+2026-11-09 16:35:51 [INFO] Querying OpenAlex: Nature page 1
+2026-11-09 16:35:52 [INFO] Querying OpenAlex: Nature page 2
+2026-11-09 16:35:53 [INFO] Querying OpenAlex: Nature page 3
+2026-11-09 16:35:53 [INFO] Retrieved 103 dated works from Nature
+2026-11-09 16:35:53 [INFO] Querying OpenAlex: Nature Energy page 1
+2026-11-09 16:35:55 [INFO] Retrieved 4 dated works from Nature Energy
+2026-11-09 16:35:55 [INFO] Querying OpenAlex: Nature Catalysis page 1
+2026-11-09 16:35:55 [INFO] Retrieved 1 dated works from Nature Catalysis
+2026-11-09 16:35:55 [INFO] Querying OpenAlex: Nature Sustainability page 1
+2026-11-09 16:35:57 [INFO] Retrieved 3 dated works from Nature Sustainability
+2026-11-09 16:35:57 [INFO] Querying OpenAlex: Nature Materials page 1
+2026-11-09 16:35:58 [INFO] Retrieved 9 dated works from Nature Materials
+2026-11-09 16:35:58 [INFO] Querying OpenAlex: Nature Nanotechnology page 1
+2026-11-09 16:35:59 [INFO] Retrieved 5 dated works from Nature Nanotechnology
+2026-11-09 16:35:59 [INFO] Querying OpenAlex: Nature Chemistry page 1
+2026-11-09 16:35:59 [INFO] Retrieved 5 dated works from Nature Chemistry
+2026-11-09 16:35:59 [INFO] Querying OpenAlex: Nature Chemical Biology page 1
+2026-11-09 16:36:00 [INFO] Retrieved 7 dated works from Nature Chemical Biology
+2026-11-09 16:36:00 [INFO] Querying OpenAlex: Nature Communications page 1
+2026-11-09 16:36:01 [INFO] Querying OpenAlex: Nature Communications page 2
+2026-11-09 16:36:02 [INFO] Querying OpenAlex: Nature Communications page 3
+2026-11-09 16:36:03 [INFO] Querying OpenAlex: Nature Communications page 4
+2026-11-09 16:36:04 [INFO] Retrieved 190 dated works from Nature Communications
+2026-11-09 16:36:04 [INFO] Querying OpenAlex: Nature Plants page 1
+2026-11-09 16:36:04 [INFO] Retrieved 11 dated works from Nature Plants
+2026-11-09 16:36:04 [INFO] Querying OpenAlex: Nature Reviews Clean Technology page 1
+2026-11-09 16:36:04 [INFO] Retrieved 0 dated works from Nature Reviews Clean Technology
+2026-11-09 16:36:04 [INFO] Querying OpenAlex: Nature Water page 1
+2026-11-09 16:36:04 [INFO] Retrieved 5 dated works from Nature Water
+2026-11-09 16:36:04 [INFO] Querying OpenAlex: Science page 1
+2026-11-09 16:36:05 [INFO] Retrieved 45 dated works from Science
+2026-11-09 16:36:05 [INFO] Querying OpenAlex: Science Advances page 1
+2026-11-09 16:36:06 [INFO] Querying OpenAlex: Science Advances page 2
+2026-11-09 16:36:07 [INFO] Retrieved 79 dated works from Science Advances
+2026-11-09 16:36:07 [INFO] Querying OpenAlex: Science Translational Medicine page 1
+2026-11-09 16:36:07 [INFO] Retrieved 7 dated works from Science Translational Medicine
+2026-11-09 16:36:07 [INFO] Querying OpenAlex: Cell page 1
+2026-11-09 16:36:07 [INFO] Retrieved 0 dated works from Cell
+2026-11-09 16:36:07 [INFO] Querying OpenAlex: Joule page 1
+2026-11-09 16:36:08 [INFO] Retrieved 0 dated works from Joule
+2026-11-09 16:36:08 [INFO] Querying OpenAlex: Chem page 1
+2026-11-09 16:36:08 [INFO] Retrieved 0 dated works from Chem
+2026-11-09 16:36:08 [INFO] Querying OpenAlex: Chem Catalysis page 1
+2026-11-09 16:36:08 [INFO] Retrieved 0 dated works from Chem Catalysis
+2026-11-09 16:36:08 [INFO] Querying OpenAlex: Matter page 1
+2026-11-09 16:36:08 [INFO] Retrieved 0 dated works from Matter
+2026-11-09 16:36:08 [INFO] Querying OpenAlex: One Earth page 1
+2026-11-09 16:36:08 [INFO] Retrieved 0 dated works from One Earth
+2026-11-09 16:36:08 [INFO] Querying OpenAlex: Renewable and Sustainable Energy Reviews page 1
+2026-11-09 16:36:09 [INFO] Retrieved 14 dated works from Renewable and Sustainable Energy Reviews
+2026-11-09 16:36:09 [INFO] Querying OpenAlex: Chemical Engineering Journal page 1
+2026-11-09 16:36:10 [INFO] Querying OpenAlex: Chemical Engineering Journal page 2
+2026-11-09 16:36:10 [INFO] Retrieved 88 dated works from Chemical Engineering Journal
+2026-11-09 16:36:10 [INFO] Querying OpenAlex: Bioresource Technology page 1
+2026-11-09 16:36:11 [INFO] Retrieved 9 dated works from Bioresource Technology
+2026-11-09 16:36:11 [INFO] Querying OpenAlex: Journal of Cleaner Production page 1
+2026-11-09 16:36:11 [INFO] Retrieved 0 dated works from Journal of Cleaner Production
+2026-11-09 16:36:11 [INFO] Querying OpenAlex: Energy page 1
+2026-11-09 16:36:11 [INFO] Retrieved 25 dated works from Energy
+2026-11-09 16:36:11 [INFO] Querying OpenAlex: Fuel page 1
+2026-11-09 16:36:12 [INFO] Querying OpenAlex: Fuel page 2
+2026-11-09 16:36:13 [INFO] Retrieved 71 dated works from Fuel
+2026-11-09 16:36:13 [INFO] Querying OpenAlex: Chemosphere page 1
+2026-11-09 16:36:13 [INFO] Retrieved 0 dated works from Chemosphere
+2026-11-09 16:36:13 [INFO] Querying OpenAlex: Industrial & Engineering Chemistry Research page 1
+2026-11-09 16:36:13 [INFO] Retrieved 36 dated works from Industrial & Engineering Chemistry Research
+2026-11-09 16:36:13 [INFO] Querying OpenAlex: Energy & Fuels page 1
+2026-11-09 16:36:14 [INFO] Retrieved 36 dated works from Energy & Fuels
+2026-11-09 16:36:14 [INFO] Querying OpenAlex: Applied Energy page 1
+2026-11-09 16:36:15 [INFO] Retrieved 44 dated works from Applied Energy
+2026-11-09 16:36:15 [INFO] Querying OpenAlex: Green Chemistry page 1
+2026-11-09 16:36:15 [INFO] Retrieved 0 dated works from Green Chemistry
+2026-11-09 16:36:15 [INFO] Querying OpenAlex: International Journal of Hydrogen Energy page 1
+2026-11-09 16:36:15 [INFO] Retrieved 35 dated works from International Journal of Hydrogen Energy
+2026-11-09 16:36:15 [INFO] Querying OpenAlex: International Journal of Agricultural and Biological Engineering page 1
+2026-11-09 16:36:16 [INFO] Retrieved 0 dated works from International Journal of Agricultural and Biological Engineering
+2026-11-09 16:36:16 [INFO] Querying OpenAlex: 农业工程学报 page 1
+2026-11-09 16:36:16 [INFO] Retrieved 0 dated works from 农业工程学报
+2026-11-09 16:36:16 [INFO] Querying OpenAlex: Biochemical Engineering Journal page 1
+2026-11-09 16:36:16 [INFO] Retrieved 3 dated works from Biochemical Engineering Journal
+2026-11-09 16:36:16 [INFO] Querying OpenAlex: Frontiers in Microbiology page 1
+2026-11-09 16:36:17 [INFO] Querying OpenAlex: Frontiers in Microbiology page 2
+2026-11-09 16:36:17 [INFO] Retrieved 73 dated works from Frontiers in Microbiology
+2026-11-09 16:36:17 [INFO] Keyword filtering retained 3 of 908 works
+2026-11-09 16:36:17 [INFO] Historical deduplication retained 3 new papers
+2026-11-09 16:36:17 [INFO] History persisted before report delivery
+2026-11-09 16:36:18 [WARNING] Title translation failed for Exploring the mechanism of electronic structure characteristics of biochar for enhancing ammonia biodegradation: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-11-09 16:36:18 [WARNING] Title translation failed for Synergistic solvent–catalyst design: Acidic deep eutectic solvents with nano-SnO2 clusters on biochar for high-yield HMF synthesis from diverse biomass feedstocks: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-11-09 16:36:19 [WARNING] Title translation failed for Synergy in viral–bacterial co-infection expedites algal bloom demise: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-11-09 16:36:19 [WARNING] Skipping summary without abstract: Exploring the mechanism of electronic structure characteristics of biochar for enhancing ammonia biodegradation
+2026-11-09 16:36:19 [WARNING] Skipping summary without abstract: Synergistic solvent–catalyst design: Acidic deep eutectic solvents with nano-SnO2 clusters on biochar for high-yield HMF synthesis from diverse biomass feedstocks
+2026-11-09 16:36:23 [INFO] Generated summary: Synergy in viral–bacterial co-infection expedites algal bloom demise
+2026-11-09 16:36:23 [INFO] Generated report and rebuilt archive index: /home/runner/work/literature-radar/literature-radar/reports/weekly_report_2026-11-09.md
+2026-11-09 16:36:27 [INFO] Email sent successfully
+2026-11-09 16:36:27 [INFO] Run completed; GitHub Actions will commit generated files
