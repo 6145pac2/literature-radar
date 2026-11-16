@@ -1,0 +1,98 @@
+2026-11-16 16:31:08 [INFO] Starting literature run for [2026-11-09, 2026-11-16)
+2026-11-16 16:31:08 [INFO] Querying OpenAlex: Nature page 1
+2026-11-16 16:31:09 [INFO] Querying OpenAlex: Nature page 2
+2026-11-16 16:31:09 [INFO] Retrieved 89 dated works from Nature
+2026-11-16 16:31:09 [INFO] Querying OpenAlex: Nature Energy page 1
+2026-11-16 16:31:09 [INFO] Retrieved 4 dated works from Nature Energy
+2026-11-16 16:31:09 [INFO] Querying OpenAlex: Nature Catalysis page 1
+2026-11-16 16:31:09 [INFO] Retrieved 5 dated works from Nature Catalysis
+2026-11-16 16:31:09 [INFO] Querying OpenAlex: Nature Sustainability page 1
+2026-11-16 16:31:09 [INFO] Retrieved 5 dated works from Nature Sustainability
+2026-11-16 16:31:09 [INFO] Querying OpenAlex: Nature Materials page 1
+2026-11-16 16:31:09 [INFO] Retrieved 4 dated works from Nature Materials
+2026-11-16 16:31:09 [INFO] Querying OpenAlex: Nature Nanotechnology page 1
+2026-11-16 16:31:10 [INFO] Retrieved 1 dated works from Nature Nanotechnology
+2026-11-16 16:31:10 [INFO] Querying OpenAlex: Nature Chemistry page 1
+2026-11-16 16:31:10 [INFO] Retrieved 6 dated works from Nature Chemistry
+2026-11-16 16:31:10 [INFO] Querying OpenAlex: Nature Chemical Biology page 1
+2026-11-16 16:31:10 [INFO] Retrieved 13 dated works from Nature Chemical Biology
+2026-11-16 16:31:10 [INFO] Querying OpenAlex: Nature Communications page 1
+2026-11-16 16:31:10 [INFO] Querying OpenAlex: Nature Communications page 2
+2026-11-16 16:31:11 [INFO] Querying OpenAlex: Nature Communications page 3
+2026-11-16 16:31:11 [INFO] Retrieved 138 dated works from Nature Communications
+2026-11-16 16:31:11 [INFO] Querying OpenAlex: Nature Plants page 1
+2026-11-16 16:31:11 [INFO] Retrieved 7 dated works from Nature Plants
+2026-11-16 16:31:11 [INFO] Querying OpenAlex: Nature Reviews Clean Technology page 1
+2026-11-16 16:31:11 [INFO] Retrieved 0 dated works from Nature Reviews Clean Technology
+2026-11-16 16:31:11 [INFO] Querying OpenAlex: Nature Water page 1
+2026-11-16 16:31:11 [INFO] Retrieved 7 dated works from Nature Water
+2026-11-16 16:31:11 [INFO] Querying OpenAlex: Science page 1
+2026-11-16 16:31:12 [INFO] Retrieved 47 dated works from Science
+2026-11-16 16:31:12 [INFO] Querying OpenAlex: Science Advances page 1
+2026-11-16 16:31:12 [INFO] Querying OpenAlex: Science Advances page 2
+2026-11-16 16:31:12 [INFO] Retrieved 81 dated works from Science Advances
+2026-11-16 16:31:12 [INFO] Querying OpenAlex: Science Translational Medicine page 1
+2026-11-16 16:31:12 [INFO] Retrieved 7 dated works from Science Translational Medicine
+2026-11-16 16:31:12 [INFO] Querying OpenAlex: Cell page 1
+2026-11-16 16:31:13 [INFO] Retrieved 0 dated works from Cell
+2026-11-16 16:31:13 [INFO] Querying OpenAlex: Joule page 1
+2026-11-16 16:31:13 [INFO] Retrieved 0 dated works from Joule
+2026-11-16 16:31:13 [INFO] Querying OpenAlex: Chem page 1
+2026-11-16 16:31:13 [INFO] Retrieved 0 dated works from Chem
+2026-11-16 16:31:13 [INFO] Querying OpenAlex: Chem Catalysis page 1
+2026-11-16 16:31:13 [INFO] Retrieved 0 dated works from Chem Catalysis
+2026-11-16 16:31:13 [INFO] Querying OpenAlex: Matter page 1
+2026-11-16 16:31:13 [INFO] Retrieved 0 dated works from Matter
+2026-11-16 16:31:13 [INFO] Querying OpenAlex: One Earth page 1
+2026-11-16 16:31:13 [INFO] Retrieved 0 dated works from One Earth
+2026-11-16 16:31:13 [INFO] Querying OpenAlex: Renewable and Sustainable Energy Reviews page 1
+2026-11-16 16:31:13 [INFO] Retrieved 11 dated works from Renewable and Sustainable Energy Reviews
+2026-11-16 16:31:13 [INFO] Querying OpenAlex: Chemical Engineering Journal page 1
+2026-11-16 16:31:13 [INFO] Retrieved 15 dated works from Chemical Engineering Journal
+2026-11-16 16:31:13 [INFO] Querying OpenAlex: Bioresource Technology page 1
+2026-11-16 16:31:13 [INFO] Retrieved 3 dated works from Bioresource Technology
+2026-11-16 16:31:13 [INFO] Querying OpenAlex: Journal of Cleaner Production page 1
+2026-11-16 16:31:13 [INFO] Retrieved 0 dated works from Journal of Cleaner Production
+2026-11-16 16:31:13 [INFO] Querying OpenAlex: Energy page 1
+2026-11-16 16:31:13 [INFO] Retrieved 11 dated works from Energy
+2026-11-16 16:31:13 [INFO] Querying OpenAlex: Fuel page 1
+2026-11-16 16:31:14 [INFO] Querying OpenAlex: Fuel page 2
+2026-11-16 16:31:14 [INFO] Retrieved 69 dated works from Fuel
+2026-11-16 16:31:14 [INFO] Querying OpenAlex: Chemosphere page 1
+2026-11-16 16:31:14 [INFO] Retrieved 0 dated works from Chemosphere
+2026-11-16 16:31:14 [INFO] Querying OpenAlex: Industrial & Engineering Chemistry Research page 1
+2026-11-16 16:31:14 [INFO] Retrieved 28 dated works from Industrial & Engineering Chemistry Research
+2026-11-16 16:31:14 [INFO] Querying OpenAlex: Energy & Fuels page 1
+2026-11-16 16:31:14 [INFO] Retrieved 28 dated works from Energy & Fuels
+2026-11-16 16:31:14 [INFO] Querying OpenAlex: Applied Energy page 1
+2026-11-16 16:31:14 [INFO] Retrieved 18 dated works from Applied Energy
+2026-11-16 16:31:14 [INFO] Querying OpenAlex: Green Chemistry page 1
+2026-11-16 16:31:14 [INFO] Retrieved 0 dated works from Green Chemistry
+2026-11-16 16:31:14 [INFO] Querying OpenAlex: International Journal of Hydrogen Energy page 1
+2026-11-16 16:31:15 [INFO] Querying OpenAlex: International Journal of Hydrogen Energy page 2
+2026-11-16 16:31:15 [INFO] Retrieved 86 dated works from International Journal of Hydrogen Energy
+2026-11-16 16:31:15 [INFO] Querying OpenAlex: International Journal of Agricultural and Biological Engineering page 1
+2026-11-16 16:31:15 [INFO] Retrieved 0 dated works from International Journal of Agricultural and Biological Engineering
+2026-11-16 16:31:15 [INFO] Querying OpenAlex: 农业工程学报 page 1
+2026-11-16 16:31:15 [INFO] Retrieved 0 dated works from 农业工程学报
+2026-11-16 16:31:15 [INFO] Querying OpenAlex: Biochemical Engineering Journal page 1
+2026-11-16 16:31:15 [INFO] Retrieved 0 dated works from Biochemical Engineering Journal
+2026-11-16 16:31:15 [INFO] Querying OpenAlex: Frontiers in Microbiology page 1
+2026-11-16 16:31:15 [INFO] Querying OpenAlex: Frontiers in Microbiology page 2
+2026-11-16 16:31:16 [INFO] Retrieved 81 dated works from Frontiers in Microbiology
+2026-11-16 16:31:16 [INFO] Keyword filtering retained 5 of 764 works
+2026-11-16 16:31:16 [INFO] Historical deduplication retained 5 new papers
+2026-11-16 16:31:16 [INFO] History persisted before report delivery
+2026-11-16 16:31:16 [WARNING] Title translation failed for Development of a hybrid material based on olive pomace biochar functionalized with 2-[2-hydroxyethyl (methyl) amino] ethanol chloride ionic liquid for enhanced CO2 capture: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-11-16 16:31:17 [WARNING] Title translation failed for Enhanced photo-fermentative hydrogen production from corn straw using cobalt-iron–nitrogen doped biochar: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-11-16 16:31:17 [WARNING] Title translation failed for Wood sawdust-derived biochar modified by waste acidic copper etching solution for gas phase mercury removal: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-11-16 16:31:17 [WARNING] Title translation failed for Enhancement of enzymatic biodiesel production: influence of reaction conditions, type of alcohol and lipase: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-11-16 16:31:18 [WARNING] Title translation failed for Exploring the neighborhood of thermotolerant free-living amoebae in Costa Rican natural water reservoirs as a preliminary One Health approach in the field: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try the translate_batch function
+2026-11-16 16:31:21 [INFO] Generated summary: Development of a hybrid material based on olive pomace biochar functionalized with 2-[2-hydroxyethyl (methyl) amino] ethanol chloride ionic liquid for enhanced CO2 capture
+2026-11-16 16:31:21 [WARNING] Skipping summary without abstract: Enhanced photo-fermentative hydrogen production from corn straw using cobalt-iron–nitrogen doped biochar
+2026-11-16 16:31:21 [WARNING] Skipping summary without abstract: Wood sawdust-derived biochar modified by waste acidic copper etching solution for gas phase mercury removal
+2026-11-16 16:31:25 [INFO] Generated summary: Enhancement of enzymatic biodiesel production: influence of reaction conditions, type of alcohol and lipase
+2026-11-16 16:31:28 [INFO] Generated summary: Exploring the neighborhood of thermotolerant free-living amoebae in Costa Rican natural water reservoirs as a preliminary One Health approach in the field
+2026-11-16 16:31:28 [INFO] Generated report and rebuilt archive index: /home/runner/work/literature-radar/literature-radar/reports/weekly_report_2026-11-16.md
+2026-11-16 16:31:32 [INFO] Email sent successfully
+2026-11-16 16:31:32 [INFO] Run completed; GitHub Actions will commit generated files

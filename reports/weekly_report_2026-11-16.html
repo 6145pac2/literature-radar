@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="文献雷达第 15 期，共 5 篇论文">
+    <title>文献雷达第 15 期 · 2026-11-16</title>
+    <style>
+:root {
+  color-scheme: light;
+  --ink: #18332d;
+  --muted: #60736e;
+  --brand: #147d64;
+  --brand-dark: #0c5c4a;
+  --accent: #d7a848;
+  --line: #dce7e2;
+  --surface: rgba(255, 255, 255, 0.92);
+  --shadow: 0 18px 50px rgba(24, 51, 45, 0.10);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 12% 0%, rgba(20, 125, 100, 0.12), transparent 32rem),
+    linear-gradient(180deg, #f8fbf9 0%, #eef4f1 100%);
+  font-family: "Segoe UI", "Microsoft YaHei", system-ui, sans-serif;
+  line-height: 1.7;
+  min-height: 100vh;
+}
+a { color: inherit; }
+.container { width: min(1080px, calc(100% - 40px)); margin: 0 auto; }
+.hero { padding: 72px 0 38px; }
+.eyebrow {
+  color: var(--brand);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+h1 { margin: 8px 0 12px; font-size: clamp(2rem, 6vw, 3.8rem); line-height: 1.15; }
+.subtitle { max-width: 680px; color: var(--muted); font-size: 1.05rem; }
+.stats { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.stat {
+  padding: 10px 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  color: var(--muted);
+}
+.stat strong { color: var(--ink); }
+.report-grid { display: grid; gap: 18px; padding: 10px 0 72px; }
+.report-card {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.7fr) 1fr auto;
+  gap: 24px;
+  align-items: center;
+  padding: 25px 28px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: 0 8px 24px rgba(24, 51, 45, 0.06);
+  text-decoration: none;
+  transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+.report-card:hover, .report-card:focus-visible {
+  transform: translateY(-3px);
+  border-color: rgba(20, 125, 100, 0.45);
+  box-shadow: var(--shadow);
+  outline: none;
+}
+.card-date { font-size: 1.3rem; font-weight: 800; }
+.card-meta { display: flex; flex-wrap: wrap; gap: 10px; color: var(--muted); }
+.card-meta span { padding: 4px 10px; border-radius: 999px; background: #edf6f2; }
+.arrow { color: var(--brand); font-weight: 800; white-space: nowrap; }
+.empty { padding: 48px; border: 1px dashed var(--line); border-radius: 20px; text-align: center; color: var(--muted); }
+.topbar { padding: 22px 0; border-bottom: 1px solid var(--line); background: rgba(248, 251, 249, 0.82); }
+.back-link { color: var(--brand-dark); font-weight: 750; text-decoration: none; }
+.report-shell { padding: 48px 0 80px; }
+.report-header, .paper {
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: 0 8px 28px rgba(24, 51, 45, 0.06);
+}
+.report-header { padding: clamp(24px, 5vw, 44px); margin-bottom: 32px; }
+.report-header h1 { font-size: clamp(1.8rem, 5vw, 3rem); }
+.issue-badge { display: inline-block; padding: 5px 12px; border-radius: 999px; background: #e4f3ed; color: var(--brand-dark); font-weight: 800; }
+.report-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+.report-meta span { padding: 7px 12px; border-radius: 10px; background: #f0f5f2; color: var(--muted); }
+.section-title { margin: 38px 0 16px; font-size: 1.45rem; }
+.section-title::before { content: ""; display: inline-block; width: 5px; height: 1.05em; margin-right: 10px; border-radius: 3px; background: var(--accent); vertical-align: -0.12em; }
+.paper { padding: clamp(20px, 4vw, 30px); margin-bottom: 16px; }
+.paper-title { margin: 0 0 12px; font-size: 1.12rem; font-weight: 800; line-height: 1.5; }
+.paper p { margin: 7px 0; color: #405650; }
+.paper .original-title { color: var(--muted); font-style: italic; }
+.paper .summary { margin-top: 14px; padding: 15px 17px; border-left: 4px solid var(--brand); border-radius: 0 12px 12px 0; background: #edf6f2; color: var(--ink); }
+.paper a { color: var(--brand-dark); overflow-wrap: anywhere; }
+footer { padding: 28px 0 48px; color: var(--muted); text-align: center; font-size: 0.9rem; }
+@media (max-width: 700px) {
+  .container { width: min(100% - 24px, 1080px); }
+  .hero { padding-top: 44px; }
+  .report-card { grid-template-columns: 1fr; gap: 10px; padding: 21px; }
+  .arrow { justify-self: start; }
+}
+</style>
+  </head>
+  <body>
+    <nav class="topbar"><div class="container"><a class="back-link" href="../index.html">← 返回历史周报</a></div></nav>
+    <main class="container report-shell">
+      <header class="report-header">
+        <span class="issue-badge">第 15 期 · 共 5 篇</span>
+        <h1>文献雷达周报</h1>
+        <div class="card-date">2026-11-16</div>
+        <div class="report-meta"><span>日期范围：2026-11-09 至 2026-11-16（左闭右开）</span><span>论文总数：5</span><span>主题关键词：hydrothermal liquefaction、biocrude、waste valorization、microalgae、biochar、biorefinery</span><span>排除关键词：medical、building structure</span><span>相关性评分：标题每命中1个主题词 +10分，摘要每命中1个主题词 +3分；本期共6个主题词，理论总分78分</span><span>检索时间：2026-11-16T16:31:08+08:00</span></div>
+      </header>
+      <h2 class="section-title">微藻</h2>
+<article class="paper">
+<h3 class="paper-title">1. Enhancement of enzymatic biodiesel production: influence of reaction conditions, type of alcohol and lipase</h3>
+<p class="original-title">(Enhancement of enzymatic biodiesel production: influence of reaction conditions, type of alcohol and lipase)</p>
+<p>👤 Verónica Díaz, Laura Antiñolo Bermúdez, José Manuel Poyatos, Jaime Martín-Pascual, María del Mar Muñío</p>
+<p>📖 <strong>Fuel</strong> | IF: 7.5 | 中科院: 工程技术 2区 Top（2025升级版）</p>
+<p>📚 小类分区: 能源与燃料 2区；工程：化工 2区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.fuel.2026.142030" target="_blank" rel="noopener">10.1016/j.fuel.2026.142030</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: microalgae)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：本研究旨在评估温度、油/醇摩尔比、醇类型、反应时间和脂肪酶制剂对酶法酯交换生产生物柴油的影响，并以鳕鱼肝油为模型底物比较反应条件，再将最有利条件应用于微藻油，以探索更温和、低能耗且可持续的酶法生物柴油生产方案。原摘要未说明具体对照组的设置细节。</p>
+<p><strong>研究方法</strong>：反应温度范围为30–50 °C，油/醇摩尔比为1/3–1/30，考察甲醇和乙醇等醇类型、反应时间及脂肪酶制剂；采用响应面法（Response surface methodology）建模反应变量的联合效应。先在鳕鱼肝油体系中比较条件，再应用于微藻油。</p>
+<p><strong>关键结果</strong>：生物柴油产率通常随反应时间增加而升高，但达到最大值后会出现下降。较低温度有利于甲醇体系反应，而乙醇体系中温度影响较不显著。使用乙醇和固体固定化脂肪酶，在40 °C、油/乙醇摩尔比1/18、反应24 h时获得最高产率99.94%。分步加入甲醇可降低固定化脂肪酶的酶抑制，48 h后转化率由17.02%提高至45.97%。液体脂肪酶在两种醇、摩尔比1/18时均可达到相近的最高产率。重复使用实验显示，固体固定化脂肪酶在乙醇体系中的效率损失低于甲醇体系。微藻油在所研究条件下生物柴油产率达到55.47%，其中33.11%的脂肪酸乙酯谱对应理想的C16–C18脂肪酸；微藻生物柴油估计十六烷值为55.86，符合UNE-EN 14214:2013标准。</p>
+<p><strong>主要结论</strong>：酶法酯交换可在较温和条件下有效生产生物柴油，醇类型、温度、摩尔比、反应时间和脂肪酶制剂共同影响产率；乙醇配合固体固定化脂肪酶可获得最高产率，分步添加甲醇可缓解固定化脂肪酶的抑制，固定化脂肪酶在乙醇体系中重复使用效率损失更低；微藻油所得生物柴油的关键质量指标达到标准要求，显示其应用可行性。原摘要未说明研究局限。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">2. Exploring the neighborhood of thermotolerant free-living amoebae in Costa Rican natural water reservoirs as a preliminary One Health approach in the field</h3>
+<p class="original-title">(Exploring the neighborhood of thermotolerant free-living amoebae in Costa Rican natural water reservoirs as a preliminary One Health approach in the field)</p>
+<p>👤 Johan Alvarado-Ocampo, Víctor Castro-Gutiérrez, Marco Ruiz Campos, Frida Chaves Monge, Kevin Silva Mena, Leonel Córdoba-Gamboa, Elizabeth Abrahams Sandí, Lissette Retana Moreira</p>
+<p>📖 <strong>Frontiers in Microbiology</strong> | IF: 5.8（2025 JIF） | 中科院: 生物学 2区（2025升级版）</p>
+<p>📚 小类分区: 微生物学 3区；Top状态未提供</p>
+<p>🔗 DOI: <a href="https://doi.org/10.3389/fmicb.2026.2003349" target="_blank" rel="noopener">10.3389/fmicb.2026.2003349</a></p>
+<p>🎯 相关性得分: 3/78 (标题: —; 摘要: microalgae)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：本研究旨在描述哥斯达黎加天然休闲淡水水体中耐热Vahlkampfiidae科自由生活阿米巴（FLA）的存在情况，并同步刻画沉积物微生物群落及气候与土地利用特征，作为One Health框架下的初步野外探索。原摘要未说明具体研究假设。</p>
+<p><strong>研究方法</strong>：从哥斯达黎加24个地点采集水样，将FLA在42 °C条件下培养后提取DNA，采用针对该科及N. fowleri物种的特异性引物进行常规PCR分子鉴定；同时对沉积物样品提取DNA，通过16S rRNA V3-V4区和18S rRNA V4区基因扩增子测序进行微生物metabarcoding表征；并利用地理信息系统将各采样点定位到相应气候亚区，建立周边土地利用覆盖缓冲区。原摘要未说明对照组的设置。</p>
+<p><strong>关键结果</strong>：24个地点中有20个为vahlkampfiids阳性，这些地点以森林覆盖为主，且位于降雨模式显著的气候亚区；所有地点N. fowleri均为阴性，但测序鉴定显示以Tetramitus spp.为主，其次为Vahlkampfia sp.和Neovahlkampfia sp.；沉积物metabarcoding主要检出后生动物、微藻和Proteobacteria。</p>
+<p><strong>主要结论</strong>：尽管未检出N. fowleri，本探索表明这些与人类密切接触的水生环境可存在耐热vahlkampfiids，且其周边微生物群落值得未来就生态相互作用和公共卫生风险开展进一步研究。原摘要未说明样本量以外的统计检验及研究局限性。</p>
+</article>
+<h2 class="section-title">生物炭</h2>
+<article class="paper">
+<h3 class="paper-title">3. Development of a hybrid material based on olive pomace biochar functionalized with 2-[2-hydroxyethyl (methyl) amino] ethanol chloride ionic liquid for enhanced CO2 capture</h3>
+<p class="original-title">(Development of a hybrid material based on olive pomace biochar functionalized with 2-[2-hydroxyethyl (methyl) amino] ethanol chloride ionic liquid for enhanced CO2 capture)</p>
+<p>👤 J.M. Monteagudo, A. Durán, A.J. de la Peña, Yansong Zhao, Yuchao Li, Jaime Monteagudo</p>
+<p>📖 <strong>Fuel</strong> | IF: 7.5 | 中科院: 工程技术 2区 Top（2025升级版）</p>
+<p>📚 小类分区: 能源与燃料 2区；工程：化工 2区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.fuel.2026.142095" target="_blank" rel="noopener">10.1016/j.fuel.2026.142095</a></p>
+<p>🎯 相关性得分: 13/78 (标题: biochar; 摘要: biochar)</p>
+<p class="summary">🤖 AI摘要：</p>
+<p><strong>研究目的</strong>：针对直接空气捕集（DAC）二氧化碳（CO2）需要高效、低成本吸附材料的问题，开发以橄榄渣来源生物炭为载体、负载离子液体2-[2-羟乙基（甲基）氨基]乙醇氯化物（MDEACl）的杂化吸附材料，并评估其CO2捕集性能。</p>
+<p><strong>研究方法</strong>：采用超声辅助浸渍法将MDEACl负载于橄榄渣生物炭表面，系统考察离子液体负载量、搅拌时间、超声振幅、占空比和超声时间对吸附性能的影响；通过元素分析与工业分析、BET、FTIR、拉曼光谱、SEM和XPS对材料进行理化表征；开展吸附动力学与再生循环研究。</p>
+<p><strong>关键结果</strong>：表征证实MDEACl成功引入生物炭表面且碳质结构得以保留；功能化及脱气处理因部分孔道占据使表观比表面积和孔容下降，但含氮活性位点显著增强CO2吸附。最优材料为1 wt% MDEACl负载，在环境空气条件（pCO2=0.00048 atm）下CO2吸附量约53 mg CO2 g−1 biochar，在较高平衡分压（pCO2=0.001773 atm）下最大饱和容量约108.0 mg CO2 g−1 biochar，而原始生物炭仅17.7 mg CO2 g−1 biochar。动力学符合伪二级模型（R2=0.999），机制为生物炭孔网络内快速物理吸附与离子液体相中生成碳酸氢盐的可逆化学吸附相结合；80 °C中等温度即可实现较高容量恢复和多次循环稳定性，XPS证实碳酸氢盐类物种可逆生成及MDEACl长期稳定。</p>
+<p><strong>主要结论</strong>：超声功能化生物炭/MDEACl是一种有前景、低能耗的DAC吸附材料；原摘要未说明长期实际工况下的选择性和放大制备可行性。</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">4. Enhanced photo-fermentative hydrogen production from corn straw using cobalt-iron–nitrogen doped biochar</h3>
+<p class="original-title">(Enhanced photo-fermentative hydrogen production from corn straw using cobalt-iron–nitrogen doped biochar)</p>
+<p>👤 Muhammad Shahzaib, Al Amin Mohamed Sultan, Wei Feng, Shaohua Feng, Muhammad Faheem, Muneeb Ur Rahman, Zainab Naseem, Shengyong Liu, Nadeem Tahir</p>
+<p>📖 <strong>Fuel</strong> | IF: 7.5 | 中科院: 工程技术 2区 Top（2025升级版）</p>
+<p>📚 小类分区: 能源与燃料 2区；工程：化工 2区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.fuel.2026.142124" target="_blank" rel="noopener">10.1016/j.fuel.2026.142124</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+<article class="paper">
+<h3 class="paper-title">5. Wood sawdust-derived biochar modified by waste acidic copper etching solution for gas phase mercury removal</h3>
+<p class="original-title">(Wood sawdust-derived biochar modified by waste acidic copper etching solution for gas phase mercury removal)</p>
+<p>👤 Baizhen Song, Shengtao Yuan, Yu Zhang, Xin Wang, Siqi Zhang, Zhuliang Zhou, Shuhao Bi, Mengjia Dou, Ping Lu, Haitao Hu, Qiang Zhou</p>
+<p>📖 <strong>Fuel</strong> | IF: 7.5 | 中科院: 工程技术 2区 Top（2025升级版）</p>
+<p>📚 小类分区: 能源与燃料 2区；工程：化工 2区</p>
+<p>🔗 DOI: <a href="https://doi.org/10.1016/j.fuel.2026.142141" target="_blank" rel="noopener">10.1016/j.fuel.2026.142141</a></p>
+<p>🎯 相关性得分: 10/78 (标题: biochar; 摘要: —)</p>
+<p class="summary">🤖 AI摘要: 暂无（OpenAlex 未提供摘要或摘要生成失败）</p>
+</article>
+    </main>
+    <footer>Literature Radar · 自动生成的每周文献档案</footer>
+  </body>
+</html>
